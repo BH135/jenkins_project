@@ -1,0 +1,55 @@
+2020-12-21 09:45:09,717 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="d1b1ffd0b47b7568f423cb7f302408da")>
+2020-12-21 09:45:09,723 INFO [root] [page_login.py (page_login:53] - [page_loging] 正在执行登陆操作，用户名：admin 密码：tydt_123456
+2020-12-21 09:45:09,723 INFO [root] [page_login.py (page_input_username:16] - [page_loging] 对：('name', 'username') 元素 输入用户名：admin 操作
+2020-12-21 09:45:09,723 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'username') 输入内容: admin
+2020-12-21 09:45:09,723 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'username') 元素，默认定位超时时间为：30
+2020-12-21 09:46:10,841 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="0b1a8a08442ec28d2ec29d96284edfdb")>
+2020-12-21 09:46:10,844 INFO [root] [page_login.py (page_login:53] - [page_loging] 正在执行登陆操作，用户名：admin 密码：tydt_123456
+2020-12-21 09:46:10,844 INFO [root] [page_login.py (page_input_username:16] - [page_loging] 对：('name', 'username') 元素 输入用户名：admin 操作
+2020-12-21 09:46:10,844 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'username') 输入内容: admin
+2020-12-21 09:46:10,844 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'username') 元素，默认定位超时时间为：30
+2020-12-21 09:46:10,893 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'username') 清空
+2020-12-21 09:46:10,949 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'username') 输入内容
+2020-12-21 09:46:10,950 INFO [root] [page_login.py (page_input_password:21] - [page_loging] 对：('name', 'password') 元素 输入密码：tydt_123456 操作
+2020-12-21 09:46:10,950 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'password') 输入内容: tydt_123456
+2020-12-21 09:46:10,950 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'password') 元素，默认定位超时时间为：30
+2020-12-21 09:46:10,997 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'password') 清空
+2020-12-21 09:46:11,067 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'password') 输入内容
+2020-12-21 09:46:12,324 INFO [root] [page_login.py (page_screenshot:26] - [page_loging] 对：None 进行截图操作
+2020-12-21 09:46:27,755 INFO [root] [page_login.py (page_input_verify_code:32] - [page_loging] 对：('name', 'validateCode') 元素 输入验证码：3
+2020-12-21 09:46:27,755 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'validateCode') 输入内容: 3
+2020-12-21 09:46:27,756 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'validateCode') 元素，默认定位超时时间为：30
+2020-12-21 09:46:27,852 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'validateCode') 清空
+2020-12-21 09:46:27,902 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'validateCode') 输入内容
+2020-12-21 09:46:27,902 INFO [root] [base.py (base_click:24] - 正在对:('id', 'btnSubmit') 元素实行点击事件
+2020-12-21 09:46:27,902 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'btnSubmit') 元素，默认定位超时时间为：30
+2020-12-21 09:46:27,970 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('css selector', '.layui-nav.setbtn span span') 文本值
+2020-12-21 09:46:27,970 INFO [root] [base.py (base_find:16] - 正在定位: ('css selector', '.layui-nav.setbtn span span') 元素，默认定位超时时间为：30
+2020-12-21 09:46:30,959 INFO [root] [base.py (base_get_image:46] - 断言出错，调用截图
+2020-12-21 09:46:32,244 ERROR [root] [test.py (test_login:51] - 错误：'TestLogin' object has no attribute 'assertEqual'
+2020-12-21 09:48:07,168 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="5623df230495d33fceee7fc1faaa9465")>
+2020-12-21 09:48:07,171 INFO [root] [page_login.py (page_login:53] - [page_loging] 正在执行登陆操作，用户名：admin 密码：tydt_123456
+2020-12-21 09:48:07,171 INFO [root] [page_login.py (page_input_username:16] - [page_loging] 对：('name', 'username') 元素 输入用户名：admin 操作
+2020-12-21 09:48:07,171 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'username') 输入内容: admin
+2020-12-21 09:48:07,171 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'username') 元素，默认定位超时时间为：30
+2020-12-21 09:48:07,215 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'username') 清空
+2020-12-21 09:48:07,337 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'username') 输入内容
+2020-12-21 09:48:07,337 INFO [root] [page_login.py (page_input_password:21] - [page_loging] 对：('name', 'password') 元素 输入密码：tydt_123456 操作
+2020-12-21 09:48:07,338 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'password') 输入内容: tydt_123456
+2020-12-21 09:48:07,338 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'password') 元素，默认定位超时时间为：30
+2020-12-21 09:48:07,381 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'password') 清空
+2020-12-21 09:48:07,448 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'password') 输入内容
+2020-12-21 09:48:08,531 INFO [root] [page_login.py (page_screenshot:26] - [page_loging] 对：None 进行截图操作
+2020-12-21 09:48:22,516 INFO [root] [page_login.py (page_input_verify_code:32] - [page_loging] 对：('name', 'validateCode') 元素 输入验证码：6
+2020-12-21 09:48:22,516 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'validateCode') 输入内容: 6
+2020-12-21 09:48:22,516 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'validateCode') 元素，默认定位超时时间为：30
+2020-12-21 09:48:22,558 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'validateCode') 清空
+2020-12-21 09:48:22,601 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'validateCode') 输入内容
+2020-12-21 09:48:22,601 INFO [root] [base.py (base_click:24] - 正在对:('id', 'btnSubmit') 元素实行点击事件
+2020-12-21 09:48:22,601 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'btnSubmit') 元素，默认定位超时时间为：30
+2020-12-21 09:48:22,672 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('css selector', '.layui-nav.setbtn span span') 文本值
+2020-12-21 09:48:22,672 INFO [root] [base.py (base_find:16] - 正在定位: ('css selector', '.layui-nav.setbtn span span') 元素，默认定位超时时间为：30
+2020-12-21 09:48:25,239 INFO [root] [base.py (base_get_image:46] - 断言出错，调用截图
+2020-12-21 09:48:26,543 ERROR [root] [test.py (test_login:51] - 错误：'TestLogin' object has no attribute 'assertEqual'
+2020-12-21 10:24:49,840 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="12ca3a9cfcea9618b58e8134540a8d9c")>
+2020-12-21 17:32:47,400 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="80f784e3edec1824f4f490f48cc7ea07")>

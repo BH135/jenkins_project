@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Dec 25 14:29:33 CST 2020","Fri Dec 25 14:30:16 CST 2020","42765","scripts","test03_filestore","TestFileStore","","","空间管理模块功能点测试","此条用例针文件存储模块下空间管理模块的增删改查测试"
+"passed","Fri Dec 25 14:28:22 CST 2020","Fri Dec 25 14:28:32 CST 2020","9787","scripts","test01_login","TestLogin","","","输入正确用户名和密码登录测试","此条用例针对绿色数字城市CIM基础平台下登录模块测试"
+"passed","Fri Dec 25 14:28:45 CST 2020","Fri Dec 25 14:29:19 CST 2020","33204","scripts","test02_KnowledgeBase","TestKnowledgeBase","","","政策管理模块功能点测试","此条用例针对知识库模块下政策管理模块的增删改查测试"
+"passed","Fri Dec 25 14:30:32 CST 2020","Fri Dec 25 14:31:08 CST 2020","36011","scripts","test04_management","TestManagement","","","文件管理模块功能点测试","此条用例针对资料管理模块下文件管理模块的增删改查测试"

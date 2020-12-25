@@ -1,0 +1,77 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "scripts",
+    "children" : [ {
+      "name" : "test01_login",
+      "children" : [ {
+        "name" : "输入正确用户名和密码登录测试",
+        "uid" : "a30dba6a3823c841",
+        "parentUid" : "323f27e150e6f45048550ec9633708d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608877702320,
+          "stop" : 1608877712107,
+          "duration" : 9787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "323f27e150e6f45048550ec9633708d9"
+    }, {
+      "name" : "test02_KnowledgeBase",
+      "children" : [ {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "5c8266644c2cb5be",
+        "parentUid" : "7690837af5d933fddac2d720a677124c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608877725940,
+          "stop" : 1608877759144,
+          "duration" : 33204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7690837af5d933fddac2d720a677124c"
+    }, {
+      "name" : "test03_filestore",
+      "children" : [ {
+        "name" : "空间管理模块功能点测试",
+        "uid" : "c09d504990b7aa78",
+        "parentUid" : "8b67c4f5b76826b1412dfd9894308c28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608877773915,
+          "stop" : 1608877816680,
+          "duration" : 42765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b67c4f5b76826b1412dfd9894308c28"
+    }, {
+      "name" : "test04_management",
+      "children" : [ {
+        "name" : "文件管理模块功能点测试",
+        "uid" : "ff92a19a661384c8",
+        "parentUid" : "f27ac62ffe855bf127f50cec202fc6e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608877832596,
+          "stop" : 1608877868607,
+          "duration" : 36011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f27ac62ffe855bf127f50cec202fc6e7"
+    } ],
+    "uid" : "8083a48773cbfbc2897cb0336273acc5"
+  } ]
+}

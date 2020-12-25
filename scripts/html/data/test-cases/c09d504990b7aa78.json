@@ -1,0 +1,398 @@
+{
+  "uid" : "c09d504990b7aa78",
+  "name" : "空间管理模块功能点测试",
+  "fullName" : "scripts.test03_filestore.TestFileStore#test_add_KnowledgeBase_0_LSSZ",
+  "historyId" : "df9c4fb5b90c7b956442abed2ccd8587",
+  "time" : {
+    "start" : 1608877773915,
+    "stop" : 1608877816680,
+    "duration" : 42765
+  },
+  "description" : "此条用例针文件存储模块下空间管理模块的增删改查测试",
+  "descriptionHtml" : "<p>此条用例针文件存储模块下空间管理模块的增删改查测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1608877761398,
+      "stop" : 1608877773915,
+      "duration" : 12517
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1608877769262,
+        "stop" : 1608877769376,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'admin'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1608877769376,
+        "stop" : 1608877769496,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "pwd",
+        "value" : "'tydt_123456'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入验证码",
+      "time" : {
+        "start" : 1608877771798,
+        "stop" : 1608877773836,
+        "duration" : 2038
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "img_path",
+        "value" : "'D:/xi.png'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1608877773836,
+        "stop" : 1608877773915,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "此条用例针文件存储模块下空间管理模块的增删改查测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击CIM跳转至绿色数字城市CIM基础平台",
+      "time" : {
+        "start" : 1608877773915,
+        "stop" : 1608877778611,
+        "duration" : 4696
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击文件存储",
+      "time" : {
+        "start" : 1608877778611,
+        "stop" : 1608877795243,
+        "duration" : 16632
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f602c6d09160228",
+        "name" : "截图",
+        "source" : "7f602c6d09160228.png",
+        "type" : "image/png",
+        "size" : 63031
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击空间管理",
+      "time" : {
+        "start" : 1608877795243,
+        "stop" : 1608877797104,
+        "duration" : 1861
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ae083abf920b69e8",
+        "name" : "截图",
+        "source" : "ae083abf920b69e8.png",
+        "type" : "image/png",
+        "size" : 99002
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击新增",
+      "time" : {
+        "start" : 1608877797105,
+        "stop" : 1608877797650,
+        "duration" : 545
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d8a185552e006288",
+        "name" : "截图",
+        "source" : "d8a185552e006288.png",
+        "type" : "image/png",
+        "size" : 110413
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入测试业务名称",
+      "time" : {
+        "start" : 1608877797650,
+        "stop" : 1608877799236,
+        "duration" : 1586
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "29f69529d41620d8",
+        "name" : "截图",
+        "source" : "29f69529d41620d8.png",
+        "type" : "image/png",
+        "size" : 108102
+      } ],
+      "parameters" : [ {
+        "name" : "Spacename",
+        "value" : "'LSSZ'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "业务新增确认测试",
+      "time" : {
+        "start" : 1608877799236,
+        "stop" : 1608877799785,
+        "duration" : 549
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3848d56e194ad52",
+        "name" : "截图",
+        "source" : "3848d56e194ad52.png",
+        "type" : "image/png",
+        "size" : 134644
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "文件上传测试",
+      "time" : {
+        "start" : 1608877803850,
+        "stop" : 1608877810433,
+        "duration" : 6583
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "370cfcfc267d7dc",
+        "name" : "截图",
+        "source" : "370cfcfc267d7dc.png",
+        "type" : "image/png",
+        "size" : 87470
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "删除测试数据",
+      "time" : {
+        "start" : 1608877814560,
+        "stop" : 1608877816680,
+        "duration" : 2120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9fdf9f8c3e1be09e",
+        "name" : "截图",
+        "source" : "9fdf9f8c3e1be09e.png",
+        "type" : "image/png",
+        "size" : 107465
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "efe3330444f863a6",
+      "name" : "log",
+      "source" : "efe3330444f863a6.txt",
+      "type" : "text/plain",
+      "size" : 8331
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1608877816680,
+      "stop" : 1608877818897,
+      "duration" : 2217
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "绿色数字城市CIM基础平台"
+  }, {
+    "name" : "story",
+    "value" : "文件存储"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test03_filestore"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFileStore"
+  }, {
+    "name" : "host",
+    "value" : "Gxl"
+  }, {
+    "name" : "thread",
+    "value" : "8592-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test03_filestore"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3be4e27173907133",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1608862711560,
+        "stop" : 1608862711560,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b424931d83740c5e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1608862490737,
+        "stop" : 1608862490737,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d4a24775c3c9e0ae",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1608862408859,
+        "stop" : 1608862408859,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1d477b927fb40a82",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'PageLogin' object has no attribute 'page_click_login_bth'",
+      "time" : {
+        "start" : 1608862248749,
+        "stop" : 1608862248749,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d57941901492751e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"btn btn-xs \" href=\"javascript:void(0)\" onclick=\"object('85')\">...</a> is not clickable at point (1743, 400). Other element would receive the click: <div class=\"layui-layer-shade\" id=\"layui-layer-shade1\" times=\"1\" style=\"z-index: 19891014; background-color: rgb(0, 0, 0); opacity: 0.3;\"></div>\n  (Session info: chrome=84.0.4147.38)",
+      "time" : {
+        "start" : 1608860887277,
+        "stop" : 1608860903318,
+        "duration" : 16041
+      }
+    }, {
+      "uid" : "c73045b1d8c37f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608859084105,
+        "stop" : 1608859115476,
+        "duration" : 31371
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c09d504990b7aa78.json",
+  "parameterValues" : [ ]
+}

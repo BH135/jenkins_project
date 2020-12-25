@@ -1,0 +1,373 @@
+2020-12-04 13:46:57,928 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="ed980b455d5b63b90523af64f419fc5b")>
+2020-12-04 13:46:57,961 INFO [root] [page_login.py (page_login:53] - [page_loging] 正在执行登陆操作，用户名：admin 密码：tydt_123456
+2020-12-04 13:46:57,962 INFO [root] [page_login.py (page_input_username:16] - [page_loging] 对：('name', 'username') 元素 输入用户名：admin 操作
+2020-12-04 13:46:57,962 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'username') 输入内容: admin
+2020-12-04 13:46:57,962 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'username') 元素，默认定位超时时间为：30
+2020-12-04 13:46:58,038 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'username') 清空
+2020-12-04 13:46:58,097 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'username') 输入内容
+2020-12-04 13:46:58,097 INFO [root] [page_login.py (page_input_password:21] - [page_loging] 对：('name', 'password') 元素 输入密码：tydt_123456 操作
+2020-12-04 13:46:58,097 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'password') 输入内容: tydt_123456
+2020-12-04 13:46:58,097 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'password') 元素，默认定位超时时间为：30
+2020-12-04 13:46:58,142 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'password') 清空
+2020-12-04 13:46:58,210 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'password') 输入内容
+2020-12-04 13:46:59,485 INFO [root] [page_login.py (page_screenshot:26] - [page_loging] 对：None 进行截图操作
+2020-12-04 13:47:15,571 INFO [root] [page_login.py (page_input_verify_code:32] - [page_loging] 对：('name', 'validateCode') 元素 输入验证码：11
+2020-12-04 13:47:15,571 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'validateCode') 输入内容: 11
+2020-12-04 13:47:15,572 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'validateCode') 元素，默认定位超时时间为：30
+2020-12-04 13:47:15,615 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'validateCode') 清空
+2020-12-04 13:47:15,665 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'validateCode') 输入内容
+2020-12-04 13:47:15,665 INFO [root] [base.py (base_click:24] - 正在对:('id', 'btnSubmit') 元素实行点击事件
+2020-12-04 13:47:15,665 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'btnSubmit') 元素，默认定位超时时间为：30
+2020-12-04 13:47:15,737 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('css selector', '.layui-nav.setbtn span span') 文本值
+2020-12-04 13:47:15,737 INFO [root] [base.py (base_find:16] - 正在定位: ('css selector', '.layui-nav.setbtn span span') 元素，默认定位超时时间为：30
+2020-12-04 13:47:26,188 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="65dcda28fddb428d1f3b618660eb9ab9")>
+2020-12-04 13:47:26,189 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="65dcda28fddb428d1f3b618660eb9ab9")>
+2020-12-04 13:47:26,189 INFO [root] [page_login.py (page_login:53] - [page_loging] 正在执行登陆操作，用户名：admin 密码：tydt_123456
+2020-12-04 13:47:26,189 INFO [root] [page_login.py (page_input_username:16] - [page_loging] 对：('name', 'username') 元素 输入用户名：admin 操作
+2020-12-04 13:47:26,189 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'username') 输入内容: admin
+2020-12-04 13:47:26,189 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'username') 元素，默认定位超时时间为：30
+2020-12-04 13:47:26,238 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'username') 清空
+2020-12-04 13:47:26,300 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'username') 输入内容
+2020-12-04 13:47:26,301 INFO [root] [page_login.py (page_input_password:21] - [page_loging] 对：('name', 'password') 元素 输入密码：tydt_123456 操作
+2020-12-04 13:47:26,301 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'password') 输入内容: tydt_123456
+2020-12-04 13:47:26,301 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'password') 元素，默认定位超时时间为：30
+2020-12-04 13:47:26,349 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'password') 清空
+2020-12-04 13:47:26,422 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'password') 输入内容
+2020-12-04 13:47:27,545 INFO [root] [page_login.py (page_screenshot:26] - [page_loging] 对：None 进行截图操作
+2020-12-04 13:47:36,953 INFO [root] [page_login.py (page_input_verify_code:32] - [page_loging] 对：('name', 'validateCode') 元素 输入验证码：8
+2020-12-04 13:47:36,953 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'validateCode') 输入内容: 8
+2020-12-04 13:47:36,953 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'validateCode') 元素，默认定位超时时间为：30
+2020-12-04 13:47:37,012 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'validateCode') 清空
+2020-12-04 13:47:37,059 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'validateCode') 输入内容
+2020-12-04 13:47:37,059 INFO [root] [base.py (base_click:24] - 正在对:('id', 'btnSubmit') 元素实行点击事件
+2020-12-04 13:47:37,059 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'btnSubmit') 元素，默认定位超时时间为：30
+2020-12-04 13:47:39,130 INFO [root] [base.py (base_click:24] - 正在对:('id', 'cim') 元素实行点击事件
+2020-12-04 13:47:39,130 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'cim') 元素，默认定位超时时间为：30
+2020-12-04 13:47:39,223 INFO [root] [base.py (base_switch_to_window:61] - 正在执行切换title值为: /html/head/title窗口
+2020-12-04 13:47:39,230 INFO [root] [base.py (base_get_title_handle:68] - 正在遍历handles：CDwindow-9495ED82002A930C47143210FB43CA7C-->['CDwindow-9495ED82002A930C47143210FB43CA7C', 'CDwindow-81EE082713A1A3DE93DC008B2CAE93F4']
+2020-12-04 13:47:39,245 INFO [root] [base.py (base_get_title_handle:71] - 切换 :CDwindow-9495ED82002A930C47143210FB43CA7C 窗口
+2020-12-04 13:47:39,254 INFO [root] [base.py (base_get_title_handle:73] - 判断当前页面title：绿色数字城市平台 是否等于指定的title：/html/head/title
+2020-12-04 13:47:39,260 INFO [root] [base.py (base_get_title_handle:68] - 正在遍历handles：CDwindow-81EE082713A1A3DE93DC008B2CAE93F4-->['CDwindow-9495ED82002A930C47143210FB43CA7C', 'CDwindow-81EE082713A1A3DE93DC008B2CAE93F4']
+2020-12-04 13:47:39,274 INFO [root] [base.py (base_get_title_handle:71] - 切换 :CDwindow-81EE082713A1A3DE93DC008B2CAE93F4 窗口
+2020-12-04 13:47:41,829 INFO [root] [base.py (base_get_title_handle:73] - 判断当前页面title： 是否等于指定的title：/html/head/title
+2020-12-04 13:47:41,834 INFO [root] [base.py (base_click:24] - 正在对:('id', '2079') 元素实行点击事件
+2020-12-04 13:47:41,834 INFO [root] [base.py (base_find:16] - 正在定位: ('id', '2079') 元素，默认定位超时时间为：30
+2020-12-04 13:47:41,894 INFO [root] [base.py (base_switch_frame:81] - 正在获取frame: frmright 元素
+2020-12-04 13:47:41,949 INFO [root] [base.py (base_click:24] - 正在对:('xpath', '//*[@id="toolbar"]/a[1]') 元素实行点击事件
+2020-12-04 13:47:41,949 INFO [root] [base.py (base_find:16] - 正在定位: ('xpath', '//*[@id="toolbar"]/a[1]') 元素，默认定位超时时间为：30
+2020-12-04 13:47:46,245 WARNING [urllib3.connectionpool] [connectionpool.py (urlopen:749] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002131B9FD7F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/65dcda28fddb428d1f3b618660eb9ab9/screenshot
+2020-12-04 13:47:48,257 WARNING [urllib3.connectionpool] [connectionpool.py (urlopen:749] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002131B9FDFA0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/65dcda28fddb428d1f3b618660eb9ab9/screenshot
+2020-12-04 13:47:50,261 WARNING [urllib3.connectionpool] [connectionpool.py (urlopen:749] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002131B9FD5B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/65dcda28fddb428d1f3b618660eb9ab9/screenshot
+2020-12-04 13:47:58,564 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="1d4aa80f38edfa2ec06909ec8fd1f1eb")>
+2020-12-04 13:47:58,564 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="1d4aa80f38edfa2ec06909ec8fd1f1eb")>
+2020-12-04 13:47:58,564 INFO [root] [page_login.py (page_login:53] - [page_loging] 正在执行登陆操作，用户名：admin 密码：tydt_123456
+2020-12-04 13:47:58,564 INFO [root] [page_login.py (page_input_username:16] - [page_loging] 对：('name', 'username') 元素 输入用户名：admin 操作
+2020-12-04 13:47:58,564 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'username') 输入内容: admin
+2020-12-04 13:47:58,564 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'username') 元素，默认定位超时时间为：30
+2020-12-04 13:47:58,614 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'username') 清空
+2020-12-04 13:47:58,678 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'username') 输入内容
+2020-12-04 13:47:58,678 INFO [root] [page_login.py (page_input_password:21] - [page_loging] 对：('name', 'password') 元素 输入密码：tydt_123456 操作
+2020-12-04 13:47:58,678 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'password') 输入内容: tydt_123456
+2020-12-04 13:47:58,678 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'password') 元素，默认定位超时时间为：30
+2020-12-04 13:47:58,726 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'password') 清空
+2020-12-04 13:47:58,800 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'password') 输入内容
+2020-12-04 13:47:59,949 INFO [root] [page_login.py (page_screenshot:26] - [page_loging] 对：None 进行截图操作
+2020-12-04 13:48:06,324 INFO [root] [page_login.py (page_input_verify_code:32] - [page_loging] 对：('name', 'validateCode') 元素 输入验证码：24
+2020-12-04 13:48:06,325 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'validateCode') 输入内容: 24
+2020-12-04 13:48:06,325 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'validateCode') 元素，默认定位超时时间为：30
+2020-12-04 13:48:06,423 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'validateCode') 清空
+2020-12-04 13:48:06,508 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'validateCode') 输入内容
+2020-12-04 13:48:06,508 INFO [root] [base.py (base_click:24] - 正在对:('id', 'btnSubmit') 元素实行点击事件
+2020-12-04 13:48:06,508 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'btnSubmit') 元素，默认定位超时时间为：30
+2020-12-04 13:48:08,605 INFO [root] [base.py (base_click:24] - 正在对:('id', 'cim') 元素实行点击事件
+2020-12-04 13:48:08,605 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'cim') 元素，默认定位超时时间为：30
+2020-12-04 13:48:08,756 INFO [root] [base.py (base_switch_to_window:61] - 正在执行切换title值为: /html/head/title窗口
+2020-12-04 13:48:08,764 INFO [root] [base.py (base_get_title_handle:68] - 正在遍历handles：CDwindow-A400FBFED6DFD36C65D9E7D51617059F-->['CDwindow-A400FBFED6DFD36C65D9E7D51617059F', 'CDwindow-4F9E8883102A315744580B21F6BC7536']
+2020-12-04 13:48:08,783 INFO [root] [base.py (base_get_title_handle:71] - 切换 :CDwindow-A400FBFED6DFD36C65D9E7D51617059F 窗口
+2020-12-04 13:48:08,792 INFO [root] [base.py (base_get_title_handle:73] - 判断当前页面title：绿色数字城市平台 是否等于指定的title：/html/head/title
+2020-12-04 13:48:08,797 INFO [root] [base.py (base_get_title_handle:68] - 正在遍历handles：CDwindow-4F9E8883102A315744580B21F6BC7536-->['CDwindow-A400FBFED6DFD36C65D9E7D51617059F', 'CDwindow-4F9E8883102A315744580B21F6BC7536']
+2020-12-04 13:48:08,811 INFO [root] [base.py (base_get_title_handle:71] - 切换 :CDwindow-4F9E8883102A315744580B21F6BC7536 窗口
+2020-12-04 13:48:12,410 INFO [root] [base.py (base_get_title_handle:73] - 判断当前页面title： 是否等于指定的title：/html/head/title
+2020-12-04 13:48:13,415 INFO [root] [base.py (base_click:24] - 正在对:('id', '2078') 元素实行点击事件
+2020-12-04 13:48:13,415 INFO [root] [base.py (base_find:16] - 正在定位: ('id', '2078') 元素，默认定位超时时间为：30
+2020-12-04 13:48:13,500 INFO [root] [base.py (base_switch_frame:81] - 正在获取frame: frmright 元素
+2020-12-04 13:48:13,530 INFO [root] [base.py (base_click:24] - 正在对:('link text', '空间管理') 元素实行点击事件
+2020-12-04 13:48:13,530 INFO [root] [base.py (base_find:16] - 正在定位: ('link text', '空间管理') 元素，默认定位超时时间为：30
+2020-12-04 13:48:14,188 INFO [root] [base.py (base_click:24] - 正在对:('css selector', 'a.btn.btn-table.btn-renew') 元素实行点击事件
+2020-12-04 13:48:14,189 INFO [root] [base.py (base_find:16] - 正在定位: ('css selector', 'a.btn.btn-table.btn-renew') 元素，默认定位超时时间为：30
+2020-12-04 13:48:14,315 INFO [root] [base.py (base_switch_frame:81] - 正在获取frame: layui-layer-iframe1 元素
+2020-12-04 13:48:18,590 WARNING [urllib3.connectionpool] [connectionpool.py (urlopen:749] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002131BA4F340>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1d4aa80f38edfa2ec06909ec8fd1f1eb/screenshot
+2020-12-04 13:48:20,594 WARNING [urllib3.connectionpool] [connectionpool.py (urlopen:749] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002131BA4F550>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1d4aa80f38edfa2ec06909ec8fd1f1eb/screenshot
+2020-12-04 13:48:22,599 WARNING [urllib3.connectionpool] [connectionpool.py (urlopen:749] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002131BA4FD00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1d4aa80f38edfa2ec06909ec8fd1f1eb/screenshot
+2020-12-04 13:48:31,308 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="07ba2a20e348375770b4dfd54d039e3e")>
+2020-12-04 13:48:31,308 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="07ba2a20e348375770b4dfd54d039e3e")>
+2020-12-04 13:48:31,308 INFO [root] [page_login.py (page_login:53] - [page_loging] 正在执行登陆操作，用户名：admin 密码：tydt_123456
+2020-12-04 13:48:31,308 INFO [root] [page_login.py (page_input_username:16] - [page_loging] 对：('name', 'username') 元素 输入用户名：admin 操作
+2020-12-04 13:48:31,308 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'username') 输入内容: admin
+2020-12-04 13:48:31,309 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'username') 元素，默认定位超时时间为：30
+2020-12-04 13:48:31,356 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'username') 清空
+2020-12-04 13:48:31,417 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'username') 输入内容
+2020-12-04 13:48:31,418 INFO [root] [page_login.py (page_input_password:21] - [page_loging] 对：('name', 'password') 元素 输入密码：tydt_123456 操作
+2020-12-04 13:48:31,418 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'password') 输入内容: tydt_123456
+2020-12-04 13:48:31,418 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'password') 元素，默认定位超时时间为：30
+2020-12-04 13:48:31,460 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'password') 清空
+2020-12-04 13:48:31,531 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'password') 输入内容
+2020-12-04 13:48:32,692 INFO [root] [page_login.py (page_screenshot:26] - [page_loging] 对：None 进行截图操作
+2020-12-04 13:48:37,628 INFO [root] [page_login.py (page_input_verify_code:32] - [page_loging] 对：('name', 'validateCode') 元素 输入验证码：20
+2020-12-04 13:48:37,628 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'validateCode') 输入内容: 20
+2020-12-04 13:48:37,628 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'validateCode') 元素，默认定位超时时间为：30
+2020-12-04 13:48:37,669 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'validateCode') 清空
+2020-12-04 13:48:37,715 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'validateCode') 输入内容
+2020-12-04 13:48:37,715 INFO [root] [base.py (base_click:24] - 正在对:('id', 'btnSubmit') 元素实行点击事件
+2020-12-04 13:48:37,715 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'btnSubmit') 元素，默认定位超时时间为：30
+2020-12-04 13:48:39,785 INFO [root] [base.py (base_click:24] - 正在对:('id', 'cim') 元素实行点击事件
+2020-12-04 13:48:39,785 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'cim') 元素，默认定位超时时间为：30
+2020-12-04 13:48:39,862 INFO [root] [base.py (base_switch_to_window:61] - 正在执行切换title值为: /html/head/title窗口
+2020-12-04 13:48:39,868 INFO [root] [base.py (base_get_title_handle:68] - 正在遍历handles：CDwindow-5409DE2B1FD34099F203422089339A06-->['CDwindow-5409DE2B1FD34099F203422089339A06', 'CDwindow-CCBEC6D75DF5F30C85AEE3711575F244']
+2020-12-04 13:48:39,885 INFO [root] [base.py (base_get_title_handle:71] - 切换 :CDwindow-5409DE2B1FD34099F203422089339A06 窗口
+2020-12-04 13:48:39,893 INFO [root] [base.py (base_get_title_handle:73] - 判断当前页面title：绿色数字城市平台 是否等于指定的title：/html/head/title
+2020-12-04 13:48:39,899 INFO [root] [base.py (base_get_title_handle:68] - 正在遍历handles：CDwindow-CCBEC6D75DF5F30C85AEE3711575F244-->['CDwindow-5409DE2B1FD34099F203422089339A06', 'CDwindow-CCBEC6D75DF5F30C85AEE3711575F244']
+2020-12-04 13:48:39,914 INFO [root] [base.py (base_get_title_handle:71] - 切换 :CDwindow-CCBEC6D75DF5F30C85AEE3711575F244 窗口
+2020-12-04 13:48:44,323 INFO [root] [base.py (base_get_title_handle:73] - 判断当前页面title： 是否等于指定的title：/html/head/title
+2020-12-04 13:48:44,328 INFO [root] [base.py (base_click:24] - 正在对:('id', '2076') 元素实行点击事件
+2020-12-04 13:48:44,329 INFO [root] [base.py (base_find:16] - 正在定位: ('id', '2076') 元素，默认定位超时时间为：30
+2020-12-04 13:48:44,379 INFO [root] [base.py (base_switch_frame:81] - 正在获取frame: frmright 元素
+2020-12-04 13:48:44,412 INFO [root] [base.py (base_click:24] - 正在对:('class name', 'icon-btn-add') 元素实行点击事件
+2020-12-04 13:48:44,412 INFO [root] [base.py (base_find:16] - 正在定位: ('class name', 'icon-btn-add') 元素，默认定位超时时间为：30
+2020-12-04 13:48:49,271 INFO [root] [base.py (base_switch_frame:81] - 正在获取frame: layui-layer-iframe1 元素
+2020-12-04 13:48:49,301 INFO [root] [base.py (base_input:29] - 正在给元素('id', 'itemName') 输入内容: 测试
+2020-12-04 13:48:49,302 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'itemName') 元素，默认定位超时时间为：30
+2020-12-04 13:48:49,344 INFO [root] [base.py (base_input:34] - 正在给元素: ('id', 'itemName') 清空
+2020-12-04 13:48:49,394 INFO [root] [base.py (base_input:37] - 正在给元素: ('id', 'itemName') 输入内容
+2020-12-04 13:48:49,394 INFO [root] [base.py (base_signout_switch_frame:91] - 正在退出frame表单: <bound method SwitchTo.default_content of <selenium.webdriver.remote.switch_to.SwitchTo object at 0x000002131BA4FA90>> 
+2020-12-04 13:48:49,397 INFO [root] [base.py (base_switch_frame:81] - 正在获取frame: frmright 元素
+2020-12-04 13:48:49,419 INFO [root] [base.py (base_click:24] - 正在对:('class name', 'layui-layer-btn0') 元素实行点击事件
+2020-12-04 13:48:49,419 INFO [root] [base.py (base_find:16] - 正在定位: ('class name', 'layui-layer-btn0') 元素，默认定位超时时间为：30
+2020-12-04 13:48:49,525 INFO [root] [page_management.py (page_get_text_new:41] - 正在获取业务新增结果: ('xpath', '//*[@id="document-content"]/dl/div/dd[1]/div[2]/a') 
+2020-12-04 13:48:51,526 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('xpath', '//*[@id="document-content"]/dl/div/dd[1]/div[2]/a') 文本值
+2020-12-04 13:48:51,526 INFO [root] [base.py (base_find:16] - 正在定位: ('xpath', '//*[@id="document-content"]/dl/div/dd[1]/div[2]/a') 元素，默认定位超时时间为：30
+2020-12-04 13:48:51,577 INFO [root] [page_management.py (page_get_text_new:41] - 正在获取业务新增结果: ('xpath', '//*[@id="document-content"]/dl/div/dd[1]/div[2]/a') 
+2020-12-04 13:48:53,579 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('xpath', '//*[@id="document-content"]/dl/div/dd[1]/div[2]/a') 文本值
+2020-12-04 13:48:53,579 INFO [root] [base.py (base_find:16] - 正在定位: ('xpath', '//*[@id="document-content"]/dl/div/dd[1]/div[2]/a') 元素，默认定位超时时间为：30
+2020-12-04 13:48:53,610 INFO [root] [base.py (base_click:24] - 正在对:('class name', 'up-load') 元素实行点击事件
+2020-12-04 13:48:53,610 INFO [root] [base.py (base_find:16] - 正在定位: ('class name', 'up-load') 元素，默认定位超时时间为：30
+2020-12-04 13:48:56,704 INFO [root] [base.py (base_uploadfiles:86] - 正在上传文件: E:\城市项目.xlsx 
+2020-12-04 13:48:59,543 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('xpath', '//*[@id="document-content"]/dl/div/dd[4]/div[2]/a') 文本值
+2020-12-04 13:48:59,543 INFO [root] [base.py (base_find:16] - 正在定位: ('xpath', '//*[@id="document-content"]/dl/div/dd[4]/div[2]/a') 元素，默认定位超时时间为：30
+2020-12-04 13:48:59,571 INFO [root] [page_management.py (page_get_file:56] - 正在获取上传结果: Axure RP 9 CHS V7.2 for 3700.zip 
+2020-12-04 13:49:01,571 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('xpath', '//*[@id="document-content"]/dl/div/dd[4]/div[2]/a') 文本值
+2020-12-04 13:49:01,571 INFO [root] [base.py (base_find:16] - 正在定位: ('xpath', '//*[@id="document-content"]/dl/div/dd[4]/div[2]/a') 元素，默认定位超时时间为：30
+2020-12-04 13:49:01,621 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('xpath', '//*[@id="document-content"]/dl/div/dd[4]/div[2]/a') 文本值
+2020-12-04 13:49:01,621 INFO [root] [base.py (base_find:16] - 正在定位: ('xpath', '//*[@id="document-content"]/dl/div/dd[4]/div[2]/a') 元素，默认定位超时时间为：30
+2020-12-04 13:49:01,648 INFO [root] [page_management.py (page_get_file:56] - 正在获取上传结果: 城市项目.xlsx 
+2020-12-04 13:49:03,650 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('xpath', '//*[@id="document-content"]/dl/div/dd[4]/div[2]/a') 文本值
+2020-12-04 13:49:03,650 INFO [root] [base.py (base_find:16] - 正在定位: ('xpath', '//*[@id="document-content"]/dl/div/dd[4]/div[2]/a') 元素，默认定位超时时间为：30
+2020-12-04 14:53:17,742 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="a4a2f245283fa2b114c1a650f8ca2c58")>
+2020-12-04 14:53:17,743 INFO [root] [page_login.py (page_login:53] - [page_loging] 正在执行登陆操作，用户名：admin 密码：tydt_123456
+2020-12-04 14:53:17,743 INFO [root] [page_login.py (page_input_username:16] - [page_loging] 对：('name', 'username') 元素 输入用户名：admin 操作
+2020-12-04 14:53:17,743 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'username') 输入内容: admin
+2020-12-04 14:53:17,743 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'username') 元素，默认定位超时时间为：30
+2020-12-04 14:53:17,791 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'username') 清空
+2020-12-04 14:53:17,851 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'username') 输入内容
+2020-12-04 14:53:17,851 INFO [root] [page_login.py (page_input_password:21] - [page_loging] 对：('name', 'password') 元素 输入密码：tydt_123456 操作
+2020-12-04 14:53:17,851 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'password') 输入内容: tydt_123456
+2020-12-04 14:53:17,851 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'password') 元素，默认定位超时时间为：30
+2020-12-04 14:53:17,896 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'password') 清空
+2020-12-04 14:53:17,971 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'password') 输入内容
+2020-12-04 14:53:19,080 INFO [root] [page_login.py (page_screenshot:26] - [page_loging] 对：None 进行截图操作
+2020-12-04 14:53:23,515 INFO [root] [page_login.py (page_input_verify_code:32] - [page_loging] 对：('name', 'validateCode') 元素 输入验证码：1
+2020-12-04 14:53:23,515 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'validateCode') 输入内容: 1
+2020-12-04 14:53:23,515 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'validateCode') 元素，默认定位超时时间为：30
+2020-12-04 14:53:23,558 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'validateCode') 清空
+2020-12-04 14:53:23,607 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'validateCode') 输入内容
+2020-12-04 14:53:23,607 INFO [root] [base.py (base_click:24] - 正在对:('id', 'btnSubmit') 元素实行点击事件
+2020-12-04 14:53:23,607 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'btnSubmit') 元素，默认定位超时时间为：30
+2020-12-04 14:53:23,679 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('css selector', '.layui-nav.setbtn span span') 文本值
+2020-12-04 14:53:23,679 INFO [root] [base.py (base_find:16] - 正在定位: ('css selector', '.layui-nav.setbtn span span') 元素，默认定位超时时间为：30
+2020-12-04 14:53:34,202 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="4b132b4dd57b95f41abe8bc16e0e5114")>
+2020-12-04 14:53:34,202 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="4b132b4dd57b95f41abe8bc16e0e5114")>
+2020-12-04 14:53:34,202 INFO [root] [page_login.py (page_login:53] - [page_loging] 正在执行登陆操作，用户名：admin 密码：tydt_123456
+2020-12-04 14:53:34,203 INFO [root] [page_login.py (page_input_username:16] - [page_loging] 对：('name', 'username') 元素 输入用户名：admin 操作
+2020-12-04 14:53:34,203 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'username') 输入内容: admin
+2020-12-04 14:53:34,203 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'username') 元素，默认定位超时时间为：30
+2020-12-04 14:53:34,249 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'username') 清空
+2020-12-04 14:53:34,315 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'username') 输入内容
+2020-12-04 14:53:34,315 INFO [root] [page_login.py (page_input_password:21] - [page_loging] 对：('name', 'password') 元素 输入密码：tydt_123456 操作
+2020-12-04 14:53:34,315 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'password') 输入内容: tydt_123456
+2020-12-04 14:53:34,316 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'password') 元素，默认定位超时时间为：30
+2020-12-04 14:53:34,359 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'password') 清空
+2020-12-04 14:53:34,448 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'password') 输入内容
+2020-12-04 14:53:35,687 INFO [root] [page_login.py (page_screenshot:26] - [page_loging] 对：None 进行截图操作
+2020-12-04 14:53:41,196 INFO [root] [page_login.py (page_input_verify_code:32] - [page_loging] 对：('name', 'validateCode') 元素 输入验证码：9
+2020-12-04 14:53:41,197 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'validateCode') 输入内容: 9
+2020-12-04 14:53:41,197 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'validateCode') 元素，默认定位超时时间为：30
+2020-12-04 14:53:41,253 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'validateCode') 清空
+2020-12-04 14:53:41,299 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'validateCode') 输入内容
+2020-12-04 14:53:41,300 INFO [root] [base.py (base_click:24] - 正在对:('id', 'btnSubmit') 元素实行点击事件
+2020-12-04 14:53:41,300 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'btnSubmit') 元素，默认定位超时时间为：30
+2020-12-04 14:53:43,371 INFO [root] [base.py (base_click:24] - 正在对:('id', 'cim') 元素实行点击事件
+2020-12-04 14:53:43,371 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'cim') 元素，默认定位超时时间为：30
+2020-12-04 14:53:43,443 INFO [root] [base.py (base_switch_to_window:61] - 正在执行切换title值为: /html/head/title窗口
+2020-12-04 14:53:43,448 INFO [root] [base.py (base_get_title_handle:68] - 正在遍历handles：CDwindow-391A116F87425991CA5F70344DC1D04B-->['CDwindow-391A116F87425991CA5F70344DC1D04B', 'CDwindow-D608965480DCB4A6B3916BD2FD756B97']
+2020-12-04 14:53:43,464 INFO [root] [base.py (base_get_title_handle:71] - 切换 :CDwindow-391A116F87425991CA5F70344DC1D04B 窗口
+2020-12-04 14:53:43,473 INFO [root] [base.py (base_get_title_handle:73] - 判断当前页面title：绿色数字城市平台 是否等于指定的title：/html/head/title
+2020-12-04 14:53:43,479 INFO [root] [base.py (base_get_title_handle:68] - 正在遍历handles：CDwindow-D608965480DCB4A6B3916BD2FD756B97-->['CDwindow-391A116F87425991CA5F70344DC1D04B', 'CDwindow-D608965480DCB4A6B3916BD2FD756B97']
+2020-12-04 14:53:43,493 INFO [root] [base.py (base_get_title_handle:71] - 切换 :CDwindow-D608965480DCB4A6B3916BD2FD756B97 窗口
+2020-12-04 14:53:46,442 INFO [root] [base.py (base_get_title_handle:73] - 判断当前页面title： 是否等于指定的title：/html/head/title
+2020-12-04 14:53:46,453 INFO [root] [base.py (base_click:24] - 正在对:('id', '2079') 元素实行点击事件
+2020-12-04 14:53:46,453 INFO [root] [base.py (base_find:16] - 正在定位: ('id', '2079') 元素，默认定位超时时间为：30
+2020-12-04 14:53:46,513 INFO [root] [base.py (base_switch_frame:81] - 正在获取frame: frmright 元素
+2020-12-04 14:53:46,563 INFO [root] [base.py (base_click:24] - 正在对:('xpath', '//*[@id="toolbar"]/a[1]') 元素实行点击事件
+2020-12-04 14:53:46,564 INFO [root] [base.py (base_find:16] - 正在定位: ('xpath', '//*[@id="toolbar"]/a[1]') 元素，默认定位超时时间为：30
+2020-12-04 14:53:47,421 INFO [root] [base.py (base_switch_frame:81] - 正在获取frame: layui-layer-iframe1 元素
+2020-12-04 14:53:48,021 INFO [root] [page_knowledgebase.py (page_send_keys_title:33] - [page_loging] 对：('name', 'policyTitle') 元素 输入标题：ProjectTesting 操作
+2020-12-04 14:53:48,021 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'policyTitle') 输入内容: ProjectTesting
+2020-12-04 14:53:48,021 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'policyTitle') 元素，默认定位超时时间为：30
+2020-12-04 14:53:48,067 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'policyTitle') 清空
+2020-12-04 14:53:48,148 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'policyTitle') 输入内容
+2020-12-04 14:53:48,148 INFO [root] [page_knowledgebase.py (page_send_keys_source:38] - [page_loging] 对：('name', 'policySource') 元素 输入来源：AutomatedTesting 操作
+2020-12-04 14:53:48,148 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'policySource') 输入内容: AutomatedTesting
+2020-12-04 14:53:48,148 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'policySource') 元素，默认定位超时时间为：30
+2020-12-04 14:53:48,193 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'policySource') 清空
+2020-12-04 14:53:48,271 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'policySource') 输入内容
+2020-12-04 14:53:48,271 INFO [root] [base.py (base_click:24] - 正在对:('xpath', '//*[@id="form-policy-add"]/div[2]/div[1]/div/div/select/option[3]') 元素实行点击事件
+2020-12-04 14:53:48,271 INFO [root] [base.py (base_find:16] - 正在定位: ('xpath', '//*[@id="form-policy-add"]/div[2]/div[1]/div/div/select/option[3]') 元素，默认定位超时时间为：30
+2020-12-04 14:53:48,325 INFO [root] [base.py (base_click:24] - 正在对:('name', 'policyTime') 元素实行点击事件
+2020-12-04 14:53:48,326 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'policyTime') 元素，默认定位超时时间为：30
+2020-12-04 14:53:48,491 INFO [root] [base.py (base_click:24] - 正在对:('css selector', 'td.day.active') 元素实行点击事件
+2020-12-04 14:53:48,492 INFO [root] [base.py (base_find:16] - 正在定位: ('css selector', 'td.day.active') 元素，默认定位超时时间为：30
+2020-12-04 14:53:48,630 INFO [root] [base.py (base_click:24] - 正在对:('id', 'fileBtn') 元素实行点击事件
+2020-12-04 14:53:48,630 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'fileBtn') 元素，默认定位超时时间为：30
+2020-12-04 14:53:48,737 INFO [root] [base.py (base_switch_frame:81] - 正在获取frame: layui-layer-iframe1 元素
+2020-12-04 14:53:48,893 INFO [root] [base.py (base_click:24] - 正在对:('id', 'filePicker') 元素实行点击事件
+2020-12-04 14:53:48,893 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'filePicker') 元素，默认定位超时时间为：30
+2020-12-04 14:53:52,033 INFO [root] [base.py (base_uploadfiles:86] - 正在上传文件: E:\城市项目.xlsx 
+2020-12-04 14:53:54,748 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('css selector', '#upload-list tr#WU_FILE_0 td') 文本值
+2020-12-04 14:53:54,748 INFO [root] [base.py (base_find:16] - 正在定位: ('css selector', '#upload-list tr#WU_FILE_0 td') 元素，默认定位超时时间为：30
+2020-12-04 14:53:55,285 INFO [root] [page_knowledgebase.py (page_get_text_upload:67] - [page_loging] 正在获取上传结果：城市项目.xlsx
+2020-12-04 14:53:55,285 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('css selector', '#upload-list tr#WU_FILE_0 td') 文本值
+2020-12-04 14:53:55,285 INFO [root] [base.py (base_find:16] - 正在定位: ('css selector', '#upload-list tr#WU_FILE_0 td') 元素，默认定位超时时间为：30
+2020-12-04 14:53:55,301 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('css selector', '#upload-list tr#WU_FILE_0 td') 文本值
+2020-12-04 14:53:55,301 INFO [root] [base.py (base_find:16] - 正在定位: ('css selector', '#upload-list tr#WU_FILE_0 td') 元素，默认定位超时时间为：30
+2020-12-04 14:53:55,314 INFO [root] [page_knowledgebase.py (page_get_text_upload:67] - [page_loging] 正在获取上传结果：城市项目.xlsx
+2020-12-04 14:53:55,314 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('css selector', '#upload-list tr#WU_FILE_0 td') 文本值
+2020-12-04 14:53:55,314 INFO [root] [base.py (base_find:16] - 正在定位: ('css selector', '#upload-list tr#WU_FILE_0 td') 元素，默认定位超时时间为：30
+2020-12-04 14:53:55,699 INFO [root] [base.py (base_signout_switch_frame:91] - 正在退出frame表单: <bound method SwitchTo.default_content of <selenium.webdriver.remote.switch_to.SwitchTo object at 0x00000185FBE7DD00>> 
+2020-12-04 14:53:55,703 INFO [root] [base.py (base_switch_frame:81] - 正在获取frame: frmright 元素
+2020-12-04 14:53:55,735 INFO [root] [base.py (base_switch_frame:81] - 正在获取frame: layui-layer-iframe1 元素
+2020-12-04 14:53:55,755 INFO [root] [base.py (base_click:24] - 正在对:('class name', 'layui-layer-btn0') 元素实行点击事件
+2020-12-04 14:53:55,755 INFO [root] [base.py (base_find:16] - 正在定位: ('class name', 'layui-layer-btn0') 元素，默认定位超时时间为：30
+2020-12-04 14:53:55,860 INFO [root] [page_knowledgebase.py (page_content:83] - [page_loging] 对：('class name', 'note-editable') 元素 输入内容：Automatic test of Tongyuan Technology 操作
+2020-12-04 14:53:55,860 INFO [root] [base.py (base_input:29] - 正在给元素('class name', 'note-editable') 输入内容: Automatic test of Tongyuan Technology
+2020-12-04 14:53:55,860 INFO [root] [base.py (base_find:16] - 正在定位: ('class name', 'note-editable') 元素，默认定位超时时间为：30
+2020-12-04 14:53:55,911 INFO [root] [base.py (base_input:34] - 正在给元素: ('class name', 'note-editable') 清空
+2020-12-04 14:53:56,227 INFO [root] [base.py (base_input:37] - 正在给元素: ('class name', 'note-editable') 输入内容
+2020-12-04 14:53:56,227 INFO [root] [base.py (base_signout_switch_frame:91] - 正在退出frame表单: <bound method SwitchTo.default_content of <selenium.webdriver.remote.switch_to.SwitchTo object at 0x00000185FBE7DD00>> 
+2020-12-04 14:53:56,238 INFO [root] [base.py (base_switch_frame:81] - 正在获取frame: frmright 元素
+2020-12-04 14:53:56,258 INFO [root] [base.py (base_click:24] - 正在对:('class name', 'layui-layer-btn0') 元素实行点击事件
+2020-12-04 14:53:56,259 INFO [root] [base.py (base_find:16] - 正在定位: ('class name', 'layui-layer-btn0') 元素，默认定位超时时间为：30
+2020-12-04 14:53:59,342 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 文本值
+2020-12-04 14:53:59,342 INFO [root] [base.py (base_find:16] - 正在定位: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 元素，默认定位超时时间为：30
+2020-12-04 14:53:59,390 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 文本值
+2020-12-04 14:53:59,390 INFO [root] [base.py (base_find:16] - 正在定位: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 元素，默认定位超时时间为：30
+2020-12-04 14:53:59,784 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'policyTitle') 输入内容: ProjectTesting
+2020-12-04 14:53:59,784 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'policyTitle') 元素，默认定位超时时间为：30
+2020-12-04 14:53:59,822 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'policyTitle') 清空
+2020-12-04 14:53:59,890 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'policyTitle') 输入内容
+2020-12-04 14:53:59,890 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 文本值
+2020-12-04 14:53:59,890 INFO [root] [base.py (base_find:16] - 正在定位: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 元素，默认定位超时时间为：30
+2020-12-04 14:53:59,903 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 文本值
+2020-12-04 14:53:59,904 INFO [root] [base.py (base_find:16] - 正在定位: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 元素，默认定位超时时间为：30
+2020-12-04 14:54:02,298 INFO [root] [base.py (base_click:24] - 正在对:('css selector', 'a.btn.btn-warning.btn-reset') 元素实行点击事件
+2020-12-04 14:54:02,298 INFO [root] [base.py (base_find:16] - 正在定位: ('css selector', 'a.btn.btn-warning.btn-reset') 元素，默认定位超时时间为：30
+2020-12-04 14:54:02,406 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'policySource') 输入内容: AutomatedTesting
+2020-12-04 14:54:02,406 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'policySource') 元素，默认定位超时时间为：30
+2020-12-04 14:54:02,447 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'policySource') 清空
+2020-12-04 14:54:02,526 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'policySource') 输入内容
+2020-12-04 14:54:02,526 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 文本值
+2020-12-04 14:54:02,527 INFO [root] [base.py (base_find:16] - 正在定位: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 元素，默认定位超时时间为：30
+2020-12-04 14:54:02,550 INFO [root] [base.py (base_get_text:41] - 正在获取元素: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 文本值
+2020-12-04 14:54:02,550 INFO [root] [base.py (base_find:16] - 正在定位: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 元素，默认定位超时时间为：30
+2020-12-04 14:54:02,907 INFO [root] [base.py (base_click:24] - 正在对:('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[7]/a[3]') 元素实行点击事件
+2020-12-04 14:54:02,907 INFO [root] [base.py (base_find:16] - 正在定位: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[7]/a[3]') 元素，默认定位超时时间为：30
+2020-12-04 14:54:02,990 INFO [root] [base.py (base_click:24] - 正在对:('class name', 'layui-layer-btn0') 元素实行点击事件
+2020-12-04 14:54:02,991 INFO [root] [base.py (base_find:16] - 正在定位: ('class name', 'layui-layer-btn0') 元素，默认定位超时时间为：30
+2020-12-04 14:54:12,033 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="d2aa2f747b892143735c2a2a9bd2ecaa")>
+2020-12-04 14:54:12,033 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="d2aa2f747b892143735c2a2a9bd2ecaa")>
+2020-12-04 14:54:12,033 INFO [root] [page_login.py (page_login:53] - [page_loging] 正在执行登陆操作，用户名：admin 密码：tydt_123456
+2020-12-04 14:54:12,033 INFO [root] [page_login.py (page_input_username:16] - [page_loging] 对：('name', 'username') 元素 输入用户名：admin 操作
+2020-12-04 14:54:12,033 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'username') 输入内容: admin
+2020-12-04 14:54:12,034 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'username') 元素，默认定位超时时间为：30
+2020-12-04 14:54:12,080 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'username') 清空
+2020-12-04 14:54:12,145 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'username') 输入内容
+2020-12-04 14:54:12,146 INFO [root] [page_login.py (page_input_password:21] - [page_loging] 对：('name', 'password') 元素 输入密码：tydt_123456 操作
+2020-12-04 14:54:12,146 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'password') 输入内容: tydt_123456
+2020-12-04 14:54:12,146 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'password') 元素，默认定位超时时间为：30
+2020-12-04 14:54:12,188 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'password') 清空
+2020-12-04 14:54:12,263 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'password') 输入内容
+2020-12-04 14:54:13,355 INFO [root] [page_login.py (page_screenshot:26] - [page_loging] 对：None 进行截图操作
+2020-12-04 14:54:28,902 INFO [root] [page_login.py (page_input_verify_code:32] - [page_loging] 对：('name', 'validateCode') 元素 输入验证码：49
+2020-12-04 14:54:28,902 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'validateCode') 输入内容: 49
+2020-12-04 14:54:28,902 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'validateCode') 元素，默认定位超时时间为：30
+2020-12-04 14:54:28,945 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'validateCode') 清空
+2020-12-04 14:54:29,000 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'validateCode') 输入内容
+2020-12-04 14:54:29,000 INFO [root] [base.py (base_click:24] - 正在对:('id', 'btnSubmit') 元素实行点击事件
+2020-12-04 14:54:29,000 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'btnSubmit') 元素，默认定位超时时间为：30
+2020-12-04 14:54:31,073 INFO [root] [base.py (base_click:24] - 正在对:('id', 'cim') 元素实行点击事件
+2020-12-04 14:54:31,073 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'cim') 元素，默认定位超时时间为：30
+2020-12-04 14:54:31,202 INFO [root] [base.py (base_switch_to_window:61] - 正在执行切换title值为: /html/head/title窗口
+2020-12-04 14:54:31,209 INFO [root] [base.py (base_get_title_handle:68] - 正在遍历handles：CDwindow-E8D8070E31B4BD1F29C645395CD413CD-->['CDwindow-E8D8070E31B4BD1F29C645395CD413CD', 'CDwindow-404AF5659A4F3CD3AB71C383F1AEE457']
+2020-12-04 14:54:31,229 INFO [root] [base.py (base_get_title_handle:71] - 切换 :CDwindow-E8D8070E31B4BD1F29C645395CD413CD 窗口
+2020-12-04 14:54:31,238 INFO [root] [base.py (base_get_title_handle:73] - 判断当前页面title：绿色数字城市平台 是否等于指定的title：/html/head/title
+2020-12-04 14:54:31,243 INFO [root] [base.py (base_get_title_handle:68] - 正在遍历handles：CDwindow-404AF5659A4F3CD3AB71C383F1AEE457-->['CDwindow-E8D8070E31B4BD1F29C645395CD413CD', 'CDwindow-404AF5659A4F3CD3AB71C383F1AEE457']
+2020-12-04 14:54:31,257 INFO [root] [base.py (base_get_title_handle:71] - 切换 :CDwindow-404AF5659A4F3CD3AB71C383F1AEE457 窗口
+2020-12-04 14:54:33,523 INFO [root] [base.py (base_get_title_handle:73] - 判断当前页面title： 是否等于指定的title：/html/head/title
+2020-12-04 14:54:34,536 INFO [root] [base.py (base_click:24] - 正在对:('id', '2078') 元素实行点击事件
+2020-12-04 14:54:34,536 INFO [root] [base.py (base_find:16] - 正在定位: ('id', '2078') 元素，默认定位超时时间为：30
+2020-12-04 14:54:34,586 INFO [root] [base.py (base_switch_frame:81] - 正在获取frame: frmright 元素
+2020-12-04 14:54:34,617 INFO [root] [base.py (base_click:24] - 正在对:('link text', '空间管理') 元素实行点击事件
+2020-12-04 14:54:34,617 INFO [root] [base.py (base_find:16] - 正在定位: ('link text', '空间管理') 元素，默认定位超时时间为：30
+2020-12-04 14:54:38,902 WARNING [urllib3.connectionpool] [connectionpool.py (urlopen:749] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000185FBE8D7C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d2aa2f747b892143735c2a2a9bd2ecaa/screenshot
+2020-12-04 14:54:40,907 WARNING [urllib3.connectionpool] [connectionpool.py (urlopen:749] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000185FBE8DEE0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d2aa2f747b892143735c2a2a9bd2ecaa/screenshot
+2020-12-04 14:54:42,910 WARNING [urllib3.connectionpool] [connectionpool.py (urlopen:749] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000185FBEB42B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d2aa2f747b892143735c2a2a9bd2ecaa/screenshot
+2020-12-04 14:54:51,553 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="40fe8cebb5cfd0847d155324f0c23493")>
+2020-12-04 14:54:51,553 INFO [root] [base.py (__init__:11] - 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="40fe8cebb5cfd0847d155324f0c23493")>
+2020-12-04 14:54:51,553 INFO [root] [page_login.py (page_login:53] - [page_loging] 正在执行登陆操作，用户名：admin 密码：tydt_123456
+2020-12-04 14:54:51,553 INFO [root] [page_login.py (page_input_username:16] - [page_loging] 对：('name', 'username') 元素 输入用户名：admin 操作
+2020-12-04 14:54:51,553 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'username') 输入内容: admin
+2020-12-04 14:54:51,553 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'username') 元素，默认定位超时时间为：30
+2020-12-04 14:54:51,599 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'username') 清空
+2020-12-04 14:54:51,660 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'username') 输入内容
+2020-12-04 14:54:51,660 INFO [root] [page_login.py (page_input_password:21] - [page_loging] 对：('name', 'password') 元素 输入密码：tydt_123456 操作
+2020-12-04 14:54:51,660 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'password') 输入内容: tydt_123456
+2020-12-04 14:54:51,660 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'password') 元素，默认定位超时时间为：30
+2020-12-04 14:54:51,703 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'password') 清空
+2020-12-04 14:54:51,778 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'password') 输入内容
+2020-12-04 14:54:52,867 INFO [root] [page_login.py (page_screenshot:26] - [page_loging] 对：None 进行截图操作
+2020-12-04 14:54:57,470 INFO [root] [page_login.py (page_input_verify_code:32] - [page_loging] 对：('name', 'validateCode') 元素 输入验证码：3
+2020-12-04 14:54:57,470 INFO [root] [base.py (base_input:29] - 正在给元素('name', 'validateCode') 输入内容: 3
+2020-12-04 14:54:57,470 INFO [root] [base.py (base_find:16] - 正在定位: ('name', 'validateCode') 元素，默认定位超时时间为：30
+2020-12-04 14:54:57,520 INFO [root] [base.py (base_input:34] - 正在给元素: ('name', 'validateCode') 清空
+2020-12-04 14:54:57,571 INFO [root] [base.py (base_input:37] - 正在给元素: ('name', 'validateCode') 输入内容
+2020-12-04 14:54:57,571 INFO [root] [base.py (base_click:24] - 正在对:('id', 'btnSubmit') 元素实行点击事件
+2020-12-04 14:54:57,571 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'btnSubmit') 元素，默认定位超时时间为：30
+2020-12-04 14:54:59,645 INFO [root] [base.py (base_click:24] - 正在对:('id', 'cim') 元素实行点击事件
+2020-12-04 14:54:59,645 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'cim') 元素，默认定位超时时间为：30
+2020-12-04 14:54:59,743 INFO [root] [base.py (base_switch_to_window:61] - 正在执行切换title值为: /html/head/title窗口
+2020-12-04 14:54:59,749 INFO [root] [base.py (base_get_title_handle:68] - 正在遍历handles：CDwindow-73AFC44ECE4F1AF4D5339DA330CE3F07-->['CDwindow-73AFC44ECE4F1AF4D5339DA330CE3F07', 'CDwindow-7E3B6D861B329D1A575D429BED17340D']
+2020-12-04 14:54:59,765 INFO [root] [base.py (base_get_title_handle:71] - 切换 :CDwindow-73AFC44ECE4F1AF4D5339DA330CE3F07 窗口
+2020-12-04 14:54:59,772 INFO [root] [base.py (base_get_title_handle:73] - 判断当前页面title：绿色数字城市平台 是否等于指定的title：/html/head/title
+2020-12-04 14:54:59,778 INFO [root] [base.py (base_get_title_handle:68] - 正在遍历handles：CDwindow-7E3B6D861B329D1A575D429BED17340D-->['CDwindow-73AFC44ECE4F1AF4D5339DA330CE3F07', 'CDwindow-7E3B6D861B329D1A575D429BED17340D']
+2020-12-04 14:54:59,793 INFO [root] [base.py (base_get_title_handle:71] - 切换 :CDwindow-7E3B6D861B329D1A575D429BED17340D 窗口
+2020-12-04 14:55:02,550 INFO [root] [base.py (base_get_title_handle:73] - 判断当前页面title： 是否等于指定的title：/html/head/title
+2020-12-04 14:55:02,558 INFO [root] [base.py (base_click:24] - 正在对:('id', '2076') 元素实行点击事件
+2020-12-04 14:55:02,559 INFO [root] [base.py (base_find:16] - 正在定位: ('id', '2076') 元素，默认定位超时时间为：30
+2020-12-04 14:55:02,609 INFO [root] [base.py (base_switch_frame:81] - 正在获取frame: frmright 元素
+2020-12-04 14:55:02,642 INFO [root] [base.py (base_click:24] - 正在对:('class name', 'icon-btn-add') 元素实行点击事件
+2020-12-04 14:55:02,642 INFO [root] [base.py (base_find:16] - 正在定位: ('class name', 'icon-btn-add') 元素，默认定位超时时间为：30
+2020-12-04 14:55:06,808 INFO [root] [base.py (base_switch_frame:81] - 正在获取frame: layui-layer-iframe1 元素
+2020-12-04 14:55:06,839 INFO [root] [base.py (base_input:29] - 正在给元素('id', 'itemName') 输入内容: 测试
+2020-12-04 14:55:06,839 INFO [root] [base.py (base_find:16] - 正在定位: ('id', 'itemName') 元素，默认定位超时时间为：30
+2020-12-04 14:55:41,295 WARNING [urllib3.connectionpool] [connectionpool.py (urlopen:749] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000185FBEB4610>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/40fe8cebb5cfd0847d155324f0c23493/screenshot
+2020-12-04 14:55:43,299 WARNING [urllib3.connectionpool] [connectionpool.py (urlopen:749] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000185FBEB49A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/40fe8cebb5cfd0847d155324f0c23493/screenshot
+2020-12-04 14:55:45,302 WARNING [urllib3.connectionpool] [connectionpool.py (urlopen:749] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000185FBEB4F40>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/40fe8cebb5cfd0847d155324f0c23493/screenshot

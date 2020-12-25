@@ -1,0 +1,736 @@
+{
+  "uid" : "5c8266644c2cb5be",
+  "name" : "政策管理模块功能点测试",
+  "fullName" : "scripts.test02_KnowledgeBase.TestKnowledgeBase#test_add_KnowledgeBase_0_ProjectTesting",
+  "historyId" : "0a9c9f7d1d2f3aedc4a09123fe9f6210",
+  "time" : {
+    "start" : 1608877725940,
+    "stop" : 1608877759144,
+    "duration" : 33204
+  },
+  "description" : "此条用例针对知识库模块下政策管理模块的增删改查测试",
+  "descriptionHtml" : "<p>此条用例针对知识库模块下政策管理模块的增删改查测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1608877714305,
+      "stop" : 1608877725940,
+      "duration" : 11635
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1608877721384,
+        "stop" : 1608877721495,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'admin'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1608877721496,
+        "stop" : 1608877721611,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "pwd",
+        "value" : "'tydt_123456'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入验证码",
+      "time" : {
+        "start" : 1608877723832,
+        "stop" : 1608877725857,
+        "duration" : 2025
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "img_path",
+        "value" : "'D:/xi.png'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1608877725858,
+        "stop" : 1608877725940,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "此条用例针对知识库模块下政策管理模块的增删改查测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击CIM跳转至绿色数字城市CIM基础平台",
+      "time" : {
+        "start" : 1608877725941,
+        "stop" : 1608877728472,
+        "duration" : 2531
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击知识库",
+      "time" : {
+        "start" : 1608877728472,
+        "stop" : 1608877735992,
+        "duration" : 7520
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ba52b757d98f1da7",
+        "name" : "截图",
+        "source" : "ba52b757d98f1da7.png",
+        "type" : "image/png",
+        "size" : 69934
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击新增",
+      "time" : {
+        "start" : 1608877735993,
+        "stop" : 1608877738981,
+        "duration" : 2988
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0e2043be3edae11",
+        "name" : "截图",
+        "source" : "b0e2043be3edae11.png",
+        "type" : "image/png",
+        "size" : 98954
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入标题",
+      "time" : {
+        "start" : 1608877738981,
+        "stop" : 1608877741594,
+        "duration" : 2613
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e8addfbd7ff36cc",
+        "name" : "截图",
+        "source" : "3e8addfbd7ff36cc.png",
+        "type" : "image/png",
+        "size" : 109465
+      } ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'ProjectTesting'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入来源",
+      "time" : {
+        "start" : 1608877741595,
+        "stop" : 1608877742108,
+        "duration" : 513
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "39fa694c3f78c927",
+        "name" : "截图",
+        "source" : "39fa694c3f78c927.png",
+        "type" : "image/png",
+        "size" : 111581
+      } ],
+      "parameters" : [ {
+        "name" : "source",
+        "value" : "'AutomatedTesting'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "选择类型",
+      "time" : {
+        "start" : 1608877742108,
+        "stop" : 1608877742565,
+        "duration" : 457
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2c419a3d91f60b30",
+        "name" : "截图",
+        "source" : "2c419a3d91f60b30.png",
+        "type" : "image/png",
+        "size" : 111909
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "选择发布时间",
+      "time" : {
+        "start" : 1608877742565,
+        "stop" : 1608877743236,
+        "duration" : 671
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "74c2e441436b04b2",
+        "name" : "截图",
+        "source" : "74c2e441436b04b2.png",
+        "type" : "image/png",
+        "size" : 111696
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "上传文件",
+      "time" : {
+        "start" : 1608877743236,
+        "stop" : 1608877750092,
+        "duration" : 6856
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2dab5dee16a22853",
+        "name" : "截图",
+        "source" : "2dab5dee16a22853.png",
+        "type" : "image/png",
+        "size" : 116533
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "上传确定",
+      "time" : {
+        "start" : 1608877750158,
+        "stop" : 1608877750731,
+        "duration" : 573
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6979f2cbdc0c8b66",
+        "name" : "截图",
+        "source" : "6979f2cbdc0c8b66.png",
+        "type" : "image/png",
+        "size" : 111695
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入内容",
+      "time" : {
+        "start" : 1608877750731,
+        "stop" : 1608877751473,
+        "duration" : 742
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d379a98abdfca07",
+        "name" : "截图",
+        "source" : "5d379a98abdfca07.png",
+        "type" : "image/png",
+        "size" : 114284
+      } ],
+      "parameters" : [ {
+        "name" : "content",
+        "value" : "'Automatic test of Tongyuan Technology'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "新增业务确认测试",
+      "time" : {
+        "start" : 1608877751473,
+        "stop" : 1608877751984,
+        "duration" : 511
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cb61e9549a220092",
+        "name" : "截图",
+        "source" : "cb61e9549a220092.png",
+        "type" : "image/png",
+        "size" : 105830
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "标题搜索测试",
+      "time" : {
+        "start" : 1608877755055,
+        "stop" : 1608877755609,
+        "duration" : 554
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1faab13369e4d38f",
+        "name" : "截图",
+        "source" : "1faab13369e4d38f.png",
+        "type" : "image/png",
+        "size" : 90285
+      } ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'ProjectTesting'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击重置测试",
+      "time" : {
+        "start" : 1608877757643,
+        "stop" : 1608877758115,
+        "duration" : 472
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9a63d889e7725ece",
+        "name" : "截图",
+        "source" : "9a63d889e7725ece.png",
+        "type" : "image/png",
+        "size" : 89357
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "来源搜索测试",
+      "time" : {
+        "start" : 1608877758116,
+        "stop" : 1608877758572,
+        "duration" : 456
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1abca9d58fd1f430",
+        "name" : "截图",
+        "source" : "1abca9d58fd1f430.png",
+        "type" : "image/png",
+        "size" : 90628
+      } ],
+      "parameters" : [ {
+        "name" : "source",
+        "value" : "'AutomatedTesting'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "删除测试业务",
+      "time" : {
+        "start" : 1608877758604,
+        "stop" : 1608877759144,
+        "duration" : 540
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e6af842d9a5c15fd",
+        "name" : "截图",
+        "source" : "e6af842d9a5c15fd.png",
+        "type" : "image/png",
+        "size" : 93394
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "405d2ed0eaaa10a2",
+      "name" : "log",
+      "source" : "405d2ed0eaaa10a2.txt",
+      "type" : "text/plain",
+      "size" : 11556
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 15,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 15,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1608877759144,
+      "stop" : 1608877761384,
+      "duration" : 2240
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "绿色数字城市CIM基础平台"
+  }, {
+    "name" : "story",
+    "value" : "知识库"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test02_KnowledgeBase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKnowledgeBase"
+  }, {
+    "name" : "host",
+    "value" : "Gxl"
+  }, {
+    "name" : "thread",
+    "value" : "8592-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test02_KnowledgeBase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "463971d95e1f26fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608877578954,
+        "stop" : 1608877617469,
+        "duration" : 38515
+      }
+    }, {
+      "uid" : "9d5274de27717173",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=84.0.4147.38)",
+      "time" : {
+        "start" : 1608877214177,
+        "stop" : 1608877214177,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3455227ec3e519bc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=84.0.4147.38)",
+      "time" : {
+        "start" : 1608876834819,
+        "stop" : 1608876834819,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1bc2a0b748b64043",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=84.0.4147.38)",
+      "time" : {
+        "start" : 1608876672399,
+        "stop" : 1608876672399,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a0463c1e2131a8da",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=84.0.4147.38)",
+      "time" : {
+        "start" : 1608876540169,
+        "stop" : 1608876540169,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "aa121a2e86d23d4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=84.0.4147.38)",
+      "time" : {
+        "start" : 1608875455186,
+        "stop" : 1608875455186,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f9c22f798da5e762",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1608864102342,
+        "stop" : 1608864134501,
+        "duration" : 32159
+      }
+    }, {
+      "uid" : "b0d11f702b949c68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608863864609,
+        "stop" : 1608863894585,
+        "duration" : 29976
+      }
+    }, {
+      "uid" : "86379844bd32f196",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=84.0.4147.38)",
+      "time" : {
+        "start" : 1608863718898,
+        "stop" : 1608863718898,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7e4bfc53cc1c2ff4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=84.0.4147.38)",
+      "time" : {
+        "start" : 1608863398184,
+        "stop" : 1608863398184,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e62d8cde0946ea4e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=84.0.4147.38)",
+      "time" : {
+        "start" : 1608862943839,
+        "stop" : 1608862943839,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "44c3e82f492b7673",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=84.0.4147.38)",
+      "time" : {
+        "start" : 1608862682402,
+        "stop" : 1608862682402,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5196c9d1e856f119",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=84.0.4147.38)",
+      "time" : {
+        "start" : 1608862476632,
+        "stop" : 1608862476632,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c6dd3b068826ccfe",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=84.0.4147.38)",
+      "time" : {
+        "start" : 1608862394168,
+        "stop" : 1608862394168,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ae3a91d7538ab544",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'PageLogin' object has no attribute 'page_click_login_bth'",
+      "time" : {
+        "start" : 1608862236245,
+        "stop" : 1608862236245,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2e581ef8f7de39d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608860842599,
+        "stop" : 1608860871533,
+        "duration" : 28934
+      }
+    }, {
+      "uid" : "13b0482cb8752c76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608860744732,
+        "stop" : 1608860776904,
+        "duration" : 32172
+      }
+    }, {
+      "uid" : "9859448fd823b833",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608796597320,
+        "stop" : 1608796628307,
+        "duration" : 30987
+      }
+    }, {
+      "uid" : "9906d013041e71c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608796217476,
+        "stop" : 1608796250835,
+        "duration" : 33359
+      }
+    }, {
+      "uid" : "b3df7583776ca044",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608795654991,
+        "stop" : 1608795688336,
+        "duration" : 33345
+      }
+    }, {
+      "uid" : "18b954c1f1e769f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608795497917,
+        "stop" : 1608795533039,
+        "duration" : 35122
+      }
+    }, {
+      "uid" : "c26f67c77198584c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608793489287,
+        "stop" : 1608793523560,
+        "duration" : 34273
+      }
+    }, {
+      "uid" : "9eceebb75de2c9cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608793095100,
+        "stop" : 1608793119334,
+        "duration" : 24234
+      }
+    }, {
+      "uid" : "3deeb52f80578fa4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: unhandled inspector error: {\"code\":-32000,\"message\":\"Execution context was destroyed.\"}\n  (Session info: chrome=84.0.4147.38)",
+      "time" : {
+        "start" : 1608793001631,
+        "stop" : 1608793008980,
+        "duration" : 7349
+      }
+    }, {
+      "uid" : "c1d3da429eab5b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608792596093,
+        "stop" : 1608792622030,
+        "duration" : 25937
+      }
+    }, {
+      "uid" : "1cf52ef428041590",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchFrameException: Message: layui-layer-iframe1",
+      "time" : {
+        "start" : 1608779868912,
+        "stop" : 1608779875279,
+        "duration" : 6367
+      }
+    }, {
+      "uid" : "fb56dd0a7da0710a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchFrameException: Message: layui-layer-iframe1",
+      "time" : {
+        "start" : 1608779752694,
+        "stop" : 1608779760557,
+        "duration" : 7863
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c8266644c2cb5be.json",
+  "parameterValues" : [ ]
+}

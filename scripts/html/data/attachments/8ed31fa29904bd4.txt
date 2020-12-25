@@ -1,0 +1,6 @@
+INFO     root:base.py:13 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="d46255f608df10ad5695849de372626d")>
+INFO     root:base.py:13 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="d46255f608df10ad5695849de372626d")>
+INFO     root:page_login.py:65 [page_loging] 正在执行登陆操作，用户名：admin 密码：tydt_123456
+INFO     root:page_login.py:18 [page_loging] 对：('name', 'username') 元素 输入用户名：admin 操作
+INFO     root:base.py:31 正在给元素('name', 'username') 输入内容: admin
+INFO     root:base.py:18 正在定位: ('name', 'username') 元素，默认定位超时时间为：30

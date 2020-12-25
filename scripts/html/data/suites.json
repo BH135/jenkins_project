@@ -1,0 +1,93 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "scripts",
+    "children" : [ {
+      "name" : "test01_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "输入正确用户名和密码登录测试",
+          "uid" : "a30dba6a3823c841",
+          "parentUid" : "21d905169c75a9bc37288f2dc0fbf1a1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1608877702320,
+            "stop" : 1608877712107,
+            "duration" : 9787
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "21d905169c75a9bc37288f2dc0fbf1a1"
+      } ],
+      "uid" : "ac3dcdf188b4309052608171778b8c63"
+    }, {
+      "name" : "test02_KnowledgeBase",
+      "children" : [ {
+        "name" : "TestKnowledgeBase",
+        "children" : [ {
+          "name" : "政策管理模块功能点测试",
+          "uid" : "5c8266644c2cb5be",
+          "parentUid" : "044faf82c7ab246b1a5219326ee5ecee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1608877725940,
+            "stop" : 1608877759144,
+            "duration" : 33204
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "044faf82c7ab246b1a5219326ee5ecee"
+      } ],
+      "uid" : "3717af9e31019a5fdbe827a5a23f8b8b"
+    }, {
+      "name" : "test03_filestore",
+      "children" : [ {
+        "name" : "TestFileStore",
+        "children" : [ {
+          "name" : "空间管理模块功能点测试",
+          "uid" : "c09d504990b7aa78",
+          "parentUid" : "68e2d5a5825c73b3a2b55b81f5122c44",
+          "status" : "passed",
+          "time" : {
+            "start" : 1608877773915,
+            "stop" : 1608877816680,
+            "duration" : 42765
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "68e2d5a5825c73b3a2b55b81f5122c44"
+      } ],
+      "uid" : "08c370a73f0e1c8686bdbc4392493a14"
+    }, {
+      "name" : "test04_management",
+      "children" : [ {
+        "name" : "TestManagement",
+        "children" : [ {
+          "name" : "文件管理模块功能点测试",
+          "uid" : "ff92a19a661384c8",
+          "parentUid" : "52ca0ce839657b6f9707603f6b5e2691",
+          "status" : "passed",
+          "time" : {
+            "start" : 1608877832596,
+            "stop" : 1608877868607,
+            "duration" : 36011
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "52ca0ce839657b6f9707603f6b5e2691"
+      } ],
+      "uid" : "75354f2e00eeeaee0b291bfbf713a4ca"
+    } ],
+    "uid" : "af586ea5ffb1b57fad0f98a55a6d147c"
+  } ]
+}

@@ -1,0 +1,64 @@
+{
+  "uid" : "aaeec222dc09ec48",
+  "name" : "文件管理模块功能点测试",
+  "fullName" : "scripts.test04_management.TestManagement#test_add_management",
+  "historyId" : "2fe120b14a48b53ae20724bd83148dd6",
+  "time" : {
+    "start" : 1608859944291,
+    "stop" : 1608859944291,
+    "duration" : 0
+  },
+  "description" : "此条用例针对资料管理模块下文件管理模块的增删改查测试",
+  "descriptionHtml" : "<p>此条用例针对资料管理模块下文件管理模块的增删改查测试</p>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'TestManagement' object has no attribute 'management'",
+  "statusTrace" : "self = <test04_management.TestManagement object at 0x000002567D6557C0>\n\n    @allure.feature(\"绿色数字城市CIM基础平台\")\n    @allure.story(\"资料管理\")\n    @allure.title(\"文件管理模块功能点测试\")\n    @allure.description(\"此条用例针对资料管理模块下文件管理模块的增删改查测试\")\n    def test_add_management(self):\n        # 调用 组合业务方法-01  此方法为了断言业务是否新增成功\n>       self.management.page_management_one()\nE       AttributeError: 'TestManagement' object has no attribute 'management'\n\ntest04_management.py:32: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "资料管理"
+  }, {
+    "name" : "feature",
+    "value" : "绿色数字城市CIM基础平台"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test04_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestManagement"
+  }, {
+    "name" : "host",
+    "value" : "Gxl"
+  }, {
+    "name" : "thread",
+    "value" : "900-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test04_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aaeec222dc09ec48.json",
+  "parameterValues" : [ ]
+}

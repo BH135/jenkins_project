@@ -1,0 +1,63 @@
+INFO     root:base.py:13 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="ee1a6d5b9587b6f14756d87842de20d0")>
+INFO     root:base.py:13 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="ee1a6d5b9587b6f14756d87842de20d0")>
+INFO     root:page_login.py:59 [page_loging] 正在执行登陆操作，用户名：admin 密码：tydt_123456
+INFO     root:page_login.py:18 [page_loging] 对：('name', 'username') 元素 输入用户名：admin 操作
+INFO     root:base.py:31 正在给元素('name', 'username') 输入内容: admin
+INFO     root:base.py:18 正在定位: ('name', 'username') 元素，默认定位超时时间为：30
+INFO     root:base.py:36 正在给元素: ('name', 'username') 清空
+INFO     root:base.py:39 正在给元素: ('name', 'username') 输入内容
+INFO     root:page_login.py:24 [page_loging] 对：('name', 'password') 元素 输入密码：tydt_123456 操作
+INFO     root:base.py:31 正在给元素('name', 'password') 输入内容: tydt_123456
+INFO     root:base.py:18 正在定位: ('name', 'password') 元素，默认定位超时时间为：30
+INFO     root:base.py:36 正在给元素: ('name', 'password') 清空
+INFO     root:base.py:39 正在给元素: ('name', 'password') 输入内容
+INFO     root:page_login.py:29 [page_loging] 对：None 进行截图操作
+INFO     root:page_login.py:36 [page_loging] 对：('name', 'validateCode') 元素 输入验证码：8
+INFO     root:base.py:31 正在给元素('name', 'validateCode') 输入内容: 8
+INFO     root:base.py:18 正在定位: ('name', 'validateCode') 元素，默认定位超时时间为：30
+INFO     root:base.py:36 正在给元素: ('name', 'validateCode') 清空
+INFO     root:base.py:39 正在给元素: ('name', 'validateCode') 输入内容
+INFO     root:base.py:26 正在对:('id', 'btnSubmit') 元素实行点击事件
+INFO     root:base.py:18 正在定位: ('id', 'btnSubmit') 元素，默认定位超时时间为：30
+INFO     root:base.py:26 正在对:('id', 'cim') 元素实行点击事件
+INFO     root:base.py:18 正在定位: ('id', 'cim') 元素，默认定位超时时间为：30
+INFO     root:base.py:67 正在执行切换title值为: /html/head/title窗口
+INFO     root:base.py:74 正在遍历handles：CDwindow-39B41AE5DFD0EFA9BB7341D9E927F478-->['CDwindow-39B41AE5DFD0EFA9BB7341D9E927F478', 'CDwindow-F78CDA49C91A6A3A9E88452D22352898']
+INFO     root:base.py:77 切换 :CDwindow-39B41AE5DFD0EFA9BB7341D9E927F478 窗口
+INFO     root:base.py:79 判断当前页面title：绿色数字城市平台 是否等于指定的title：/html/head/title
+INFO     root:base.py:74 正在遍历handles：CDwindow-F78CDA49C91A6A3A9E88452D22352898-->['CDwindow-39B41AE5DFD0EFA9BB7341D9E927F478', 'CDwindow-F78CDA49C91A6A3A9E88452D22352898']
+INFO     root:base.py:77 切换 :CDwindow-F78CDA49C91A6A3A9E88452D22352898 窗口
+INFO     root:base.py:79 判断当前页面title： 是否等于指定的title：/html/head/title
+INFO     root:base.py:26 正在对:('id', '2076') 元素实行点击事件
+INFO     root:base.py:18 正在定位: ('id', '2076') 元素，默认定位超时时间为：30
+INFO     root:base.py:87 正在获取frame: frmright 元素
+INFO     root:base.py:26 正在对:('class name', 'icon-btn-add') 元素实行点击事件
+INFO     root:base.py:18 正在定位: ('class name', 'icon-btn-add') 元素，默认定位超时时间为：30
+INFO     root:base.py:87 正在获取frame: layui-layer-iframe1 元素
+INFO     root:base.py:31 正在给元素('id', 'itemName') 输入内容: 测试
+INFO     root:base.py:18 正在定位: ('id', 'itemName') 元素，默认定位超时时间为：30
+INFO     root:base.py:36 正在给元素: ('id', 'itemName') 清空
+INFO     root:base.py:39 正在给元素: ('id', 'itemName') 输入内容
+INFO     root:base.py:97 正在退出frame表单: <bound method SwitchTo.default_content of <selenium.webdriver.remote.switch_to.SwitchTo object at 0x000002841A8BF280>> 
+INFO     root:base.py:87 正在获取frame: frmright 元素
+INFO     root:base.py:26 正在对:('class name', 'layui-layer-btn0') 元素实行点击事件
+INFO     root:base.py:18 正在定位: ('class name', 'layui-layer-btn0') 元素，默认定位超时时间为：30
+INFO     root:page_management.py:51 正在获取业务新增结果: ('xpath', '//*[@id="document-content"]/dl/div/dd[1]/div[2]/a') 
+INFO     root:base.py:43 正在获取元素: ('xpath', '//*[@id="document-content"]/dl/div/dd[1]/div[2]/a') 文本值
+INFO     root:base.py:18 正在定位: ('xpath', '//*[@id="document-content"]/dl/div/dd[1]/div[2]/a') 元素，默认定位超时时间为：30
+INFO     root:page_management.py:51 正在获取业务新增结果: ('xpath', '//*[@id="document-content"]/dl/div/dd[1]/div[2]/a') 
+INFO     root:base.py:43 正在获取元素: ('xpath', '//*[@id="document-content"]/dl/div/dd[1]/div[2]/a') 文本值
+INFO     root:base.py:18 正在定位: ('xpath', '//*[@id="document-content"]/dl/div/dd[1]/div[2]/a') 元素，默认定位超时时间为：30
+INFO     root:base.py:26 正在对:('class name', 'up-load') 元素实行点击事件
+INFO     root:base.py:18 正在定位: ('class name', 'up-load') 元素，默认定位超时时间为：30
+INFO     root:base.py:92 正在上传文件: E:\城市项目.xlsx 
+INFO     root:base.py:43 正在获取元素: ('xpath', '//*[@id="document-content"]/dl/div/dd[4]/div[2]/a') 文本值
+INFO     root:base.py:18 正在定位: ('xpath', '//*[@id="document-content"]/dl/div/dd[4]/div[2]/a') 元素，默认定位超时时间为：30
+INFO     root:page_management.py:69 正在获取上传结果: 会议相关资料 
+INFO     root:base.py:43 正在获取元素: ('xpath', '//*[@id="document-content"]/dl/div/dd[4]/div[2]/a') 文本值
+INFO     root:base.py:18 正在定位: ('xpath', '//*[@id="document-content"]/dl/div/dd[4]/div[2]/a') 元素，默认定位超时时间为：30
+INFO     root:base.py:43 正在获取元素: ('xpath', '//*[@id="document-content"]/dl/div/dd[4]/div[2]/a') 文本值
+INFO     root:base.py:18 正在定位: ('xpath', '//*[@id="document-content"]/dl/div/dd[4]/div[2]/a') 元素，默认定位超时时间为：30
+INFO     root:page_management.py:69 正在获取上传结果: 会议相关资料 
+INFO     root:base.py:43 正在获取元素: ('xpath', '//*[@id="document-content"]/dl/div/dd[4]/div[2]/a') 文本值
+INFO     root:base.py:18 正在定位: ('xpath', '//*[@id="document-content"]/dl/div/dd[4]/div[2]/a') 元素，默认定位超时时间为：30

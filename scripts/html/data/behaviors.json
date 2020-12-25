@@ -1,0 +1,77 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "绿色数字城市CIM基础平台",
+    "children" : [ {
+      "name" : "用户登录",
+      "children" : [ {
+        "name" : "输入正确用户名和密码登录测试",
+        "uid" : "a30dba6a3823c841",
+        "parentUid" : "18001d7b5b4c013647fc69a8902420fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608877702320,
+          "stop" : 1608877712107,
+          "duration" : 9787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "18001d7b5b4c013647fc69a8902420fb"
+    }, {
+      "name" : "知识库",
+      "children" : [ {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "5c8266644c2cb5be",
+        "parentUid" : "fb203f75b8c6ac2573574ef9e0555657",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608877725940,
+          "stop" : 1608877759144,
+          "duration" : 33204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb203f75b8c6ac2573574ef9e0555657"
+    }, {
+      "name" : "文件存储",
+      "children" : [ {
+        "name" : "空间管理模块功能点测试",
+        "uid" : "c09d504990b7aa78",
+        "parentUid" : "ef0deba8a5a24f3723607a88c4054d53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608877773915,
+          "stop" : 1608877816680,
+          "duration" : 42765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef0deba8a5a24f3723607a88c4054d53"
+    }, {
+      "name" : "资料管理",
+      "children" : [ {
+        "name" : "文件管理模块功能点测试",
+        "uid" : "ff92a19a661384c8",
+        "parentUid" : "cc473b71604191c0181f50fa707afb8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608877832596,
+          "stop" : 1608877868607,
+          "duration" : 36011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cc473b71604191c0181f50fa707afb8f"
+    } ],
+    "uid" : "63c1a2da97ee206ae3a67e68e50ffcc7"
+  } ]
+}

@@ -1,0 +1,910 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Gxl",
+    "children" : [ {
+      "name" : "5420-MainThread",
+      "children" : [ {
+        "name" : "输入正确用户名和密码登录测试",
+        "uid" : "ea9e4f0a3c405b5b",
+        "parentUid" : "7b90dd6a2e73ec150cc44d9d2bbc573b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608860722854,
+          "stop" : 1608860730965,
+          "duration" : 8111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "13b0482cb8752c76",
+        "parentUid" : "7b90dd6a2e73ec150cc44d9d2bbc573b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608860744732,
+          "stop" : 1608860776904,
+          "duration" : 32172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b90dd6a2e73ec150cc44d9d2bbc573b"
+    }, {
+      "name" : "31428-MainThread",
+      "children" : [ {
+        "name" : "test_login_0_admin",
+        "uid" : "7449a23d7955ed73",
+        "parentUid" : "d27a306a85cd3b72834fd756249eb2cc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608773719071,
+          "stop" : 1608773738512,
+          "duration" : 19441
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d27a306a85cd3b72834fd756249eb2cc"
+    }, {
+      "name" : "16700-MainThread",
+      "children" : [ {
+        "name" : "test_login_0_admin",
+        "uid" : "2192593f98884f2b",
+        "parentUid" : "97c762aea5a96e49d91a953693dfb519",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608774695237,
+          "stop" : 1608774715615,
+          "duration" : 20378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "97c762aea5a96e49d91a953693dfb519"
+    }, {
+      "name" : "35912-MainThread",
+      "children" : [ {
+        "name" : "test_login_0_admin",
+        "uid" : "840c9310a819ad64",
+        "parentUid" : "fd0a705700612d2814b514861aeaba0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608779474323,
+          "stop" : 1608779493468,
+          "duration" : 19145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd0a705700612d2814b514861aeaba0b"
+    }, {
+      "name" : "6060-MainThread",
+      "children" : [ {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "e62d8cde0946ea4e",
+        "parentUid" : "375517ceec71fadf6072c1781558465d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608862943839,
+          "stop" : 1608862943839,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "375517ceec71fadf6072c1781558465d"
+    }, {
+      "name" : "15904-MainThread",
+      "children" : [ {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "3455227ec3e519bc",
+        "parentUid" : "c88221c465c6e002232ce809ac6c2ee9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608876834819,
+          "stop" : 1608876834819,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c88221c465c6e002232ce809ac6c2ee9"
+    }, {
+      "name" : "8592-MainThread",
+      "children" : [ {
+        "name" : "输入正确用户名和密码登录测试",
+        "uid" : "a30dba6a3823c841",
+        "parentUid" : "a0e59cf7900a18ade753043bbe16dfd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608877702320,
+          "stop" : 1608877712107,
+          "duration" : 9787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "5c8266644c2cb5be",
+        "parentUid" : "a0e59cf7900a18ade753043bbe16dfd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608877725940,
+          "stop" : 1608877759144,
+          "duration" : 33204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "文件管理模块功能点测试",
+        "uid" : "ff92a19a661384c8",
+        "parentUid" : "a0e59cf7900a18ade753043bbe16dfd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608877832596,
+          "stop" : 1608877868607,
+          "duration" : 36011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "空间管理模块功能点测试",
+        "uid" : "c09d504990b7aa78",
+        "parentUid" : "a0e59cf7900a18ade753043bbe16dfd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608877773915,
+          "stop" : 1608877816680,
+          "duration" : 42765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0e59cf7900a18ade753043bbe16dfd2"
+    }, {
+      "name" : "38832-MainThread",
+      "children" : [ {
+        "name" : "test_login_0_admin",
+        "uid" : "bba12dbb6b7b7781",
+        "parentUid" : "ff308932d7dff87a82e8e081d7b86106",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608779687143,
+          "stop" : 1608779695621,
+          "duration" : 8478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff308932d7dff87a82e8e081d7b86106"
+    }, {
+      "name" : "13316-MainThread",
+      "children" : [ {
+        "name" : "空间管理模块功能点测试",
+        "uid" : "b424931d83740c5e",
+        "parentUid" : "4a141c6719bfc92aec865fb16f4f1593",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608862490737,
+          "stop" : 1608862490737,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入正确用户名和密码登录测试",
+        "uid" : "bdba1f79ba75325",
+        "parentUid" : "4a141c6719bfc92aec865fb16f4f1593",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608862453842,
+          "stop" : 1608862474342,
+          "duration" : 20500
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "文件管理模块功能点测试",
+        "uid" : "4594d5f837b992c3",
+        "parentUid" : "4a141c6719bfc92aec865fb16f4f1593",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608862520809,
+          "stop" : 1608862520809,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "5196c9d1e856f119",
+        "parentUid" : "4a141c6719bfc92aec865fb16f4f1593",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608862476632,
+          "stop" : 1608862476632,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a141c6719bfc92aec865fb16f4f1593"
+    }, {
+      "name" : "42252-MainThread",
+      "children" : [ {
+        "name" : "test_add_KnowledgeBase_0_ProjectTesting",
+        "uid" : "c26f67c77198584c",
+        "parentUid" : "32b436db9037419634e0b848c43a0a1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608793489287,
+          "stop" : 1608793523560,
+          "duration" : 34273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "32b436db9037419634e0b848c43a0a1c"
+    }, {
+      "name" : "5200-MainThread",
+      "children" : [ {
+        "name" : "输入正确用户名和密码登录测试",
+        "uid" : "7a53dbc8a73e3794",
+        "parentUid" : "2dfa1ea18fb609d9e757ee676e3c3bfe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608862216987,
+          "stop" : 1608862234016,
+          "duration" : 17029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "文件管理模块功能点测试",
+        "uid" : "266244a0334bad7b",
+        "parentUid" : "2dfa1ea18fb609d9e757ee676e3c3bfe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608862253651,
+          "stop" : 1608862253651,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "ae3a91d7538ab544",
+        "parentUid" : "2dfa1ea18fb609d9e757ee676e3c3bfe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608862236245,
+          "stop" : 1608862236245,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "空间管理模块功能点测试",
+        "uid" : "1d477b927fb40a82",
+        "parentUid" : "2dfa1ea18fb609d9e757ee676e3c3bfe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608862248749,
+          "stop" : 1608862248749,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2dfa1ea18fb609d9e757ee676e3c3bfe"
+    }, {
+      "name" : "14976-MainThread",
+      "children" : [ {
+        "name" : "空间管理模块功能点测试",
+        "uid" : "d4a24775c3c9e0ae",
+        "parentUid" : "8c983ecd272cc7632c719d6c354d675b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608862408859,
+          "stop" : 1608862408859,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入正确用户名和密码登录测试",
+        "uid" : "c92688627e3e42e0",
+        "parentUid" : "8c983ecd272cc7632c719d6c354d675b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608862385476,
+          "stop" : 1608862391899,
+          "duration" : 6423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "c6dd3b068826ccfe",
+        "parentUid" : "8c983ecd272cc7632c719d6c354d675b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608862394168,
+          "stop" : 1608862394168,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8c983ecd272cc7632c719d6c354d675b"
+    }, {
+      "name" : "38268-MainThread",
+      "children" : [ {
+        "name" : "test_login_0_admin",
+        "uid" : "3eab1ca2085b3438",
+        "parentUid" : "9139f9c98e398cb1bfc7be36d418a0c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608778514896,
+          "stop" : 1608778533207,
+          "duration" : 18311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9139f9c98e398cb1bfc7be36d418a0c3"
+    }, {
+      "name" : "15964-MainThread",
+      "children" : [ {
+        "name" : "空间管理模块功能点测试",
+        "uid" : "3be4e27173907133",
+        "parentUid" : "06cee88ba943e51c8c12544a3b32eadf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608862711560,
+          "stop" : 1608862711560,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "44c3e82f492b7673",
+        "parentUid" : "06cee88ba943e51c8c12544a3b32eadf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608862682402,
+          "stop" : 1608862682402,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入正确用户名和密码登录测试",
+        "uid" : "6ef9900219ffba62",
+        "parentUid" : "06cee88ba943e51c8c12544a3b32eadf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608862672561,
+          "stop" : 1608862680092,
+          "duration" : 7531
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "06cee88ba943e51c8c12544a3b32eadf"
+    }, {
+      "name" : "3136-MainThread",
+      "children" : [ {
+        "name" : "输入正确用户名和密码登录测试",
+        "uid" : "13865e9c5f358192",
+        "parentUid" : "da96caaea45509358e45d283c50b91e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608860820755,
+          "stop" : 1608860827070,
+          "duration" : 6315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "空间管理模块功能点测试",
+        "uid" : "d57941901492751e",
+        "parentUid" : "da96caaea45509358e45d283c50b91e0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608860887277,
+          "stop" : 1608860903318,
+          "duration" : 16041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "2e581ef8f7de39d",
+        "parentUid" : "da96caaea45509358e45d283c50b91e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608860842599,
+          "stop" : 1608860871533,
+          "duration" : 28934
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "文件管理模块功能点测试",
+        "uid" : "59c51a4c8928fded",
+        "parentUid" : "da96caaea45509358e45d283c50b91e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608860917471,
+          "stop" : 1608860944514,
+          "duration" : 27043
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da96caaea45509358e45d283c50b91e0"
+    }, {
+      "name" : "40624-MainThread",
+      "children" : [ {
+        "name" : "test_add_KnowledgeBase_0_ProjectTesting",
+        "uid" : "18b954c1f1e769f8",
+        "parentUid" : "ed6a38744dfeb0a214f1480d44899dca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608795497917,
+          "stop" : 1608795533039,
+          "duration" : 35122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ed6a38744dfeb0a214f1480d44899dca"
+    }, {
+      "name" : "12200-MainThread",
+      "children" : [ {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "f9c22f798da5e762",
+        "parentUid" : "dc43d05a11f7bff7399ecc6a8b1f72ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608864102342,
+          "stop" : 1608864134501,
+          "duration" : 32159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dc43d05a11f7bff7399ecc6a8b1f72ca"
+    }, {
+      "name" : "42168-MainThread",
+      "children" : [ {
+        "name" : "新增功能点测试",
+        "uid" : "9906d013041e71c7",
+        "parentUid" : "922a4082f9eebb9432533f17feab35c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608796217476,
+          "stop" : 1608796250835,
+          "duration" : 33359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "922a4082f9eebb9432533f17feab35c5"
+    }, {
+      "name" : "37876-MainThread",
+      "children" : [ {
+        "name" : "test_login_0_admin",
+        "uid" : "a41719b91b48ec19",
+        "parentUid" : "09d232a4eb31530e770ee736ab6d3134",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608778365494,
+          "stop" : 1608778386593,
+          "duration" : 21099
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "09d232a4eb31530e770ee736ab6d3134"
+    }, {
+      "name" : "15136-MainThread",
+      "children" : [ {
+        "name" : "输入正确用户名和密码登录测试",
+        "uid" : "c8814142a9441e0c",
+        "parentUid" : "da83fd3c6c94039e8873edbfef625cd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608859300280,
+          "stop" : 1608859313459,
+          "duration" : 13179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da83fd3c6c94039e8873edbfef625cd9"
+    }, {
+      "name" : "38944-MainThread",
+      "children" : [ {
+        "name" : "test_add_KnowledgeBase_0_ProjectTesting",
+        "uid" : "1cf52ef428041590",
+        "parentUid" : "c89ad577f59425a6e3900e26fe797c6c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608779868912,
+          "stop" : 1608779875279,
+          "duration" : 6367
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c89ad577f59425a6e3900e26fe797c6c"
+    }, {
+      "name" : "18576-MainThread",
+      "children" : [ {
+        "name" : "test_login_0_admin",
+        "uid" : "980c768882240d04",
+        "parentUid" : "54942241114ff5bef9c6e1dc53a8e29c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608779623779,
+          "stop" : 1608779631012,
+          "duration" : 7233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54942241114ff5bef9c6e1dc53a8e29c"
+    }, {
+      "name" : "900-MainThread",
+      "children" : [ {
+        "name" : "文件管理模块功能点测试",
+        "uid" : "aaeec222dc09ec48",
+        "parentUid" : "ba597cd14ae98e119c48eede033c540d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608859944291,
+          "stop" : 1608859944291,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ba597cd14ae98e119c48eede033c540d"
+    }, {
+      "name" : "18816-MainThread",
+      "children" : [ {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "1bc2a0b748b64043",
+        "parentUid" : "7520e06b8023e29533f9eb200e39da48",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608876672399,
+          "stop" : 1608876672399,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7520e06b8023e29533f9eb200e39da48"
+    }, {
+      "name" : "11440-MainThread",
+      "children" : [ {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "7e4bfc53cc1c2ff4",
+        "parentUid" : "4037a203eba7813334bb14a0f76c1d6e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608863398184,
+          "stop" : 1608863398184,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4037a203eba7813334bb14a0f76c1d6e"
+    }, {
+      "name" : "15944-MainThread",
+      "children" : [ {
+        "name" : "文件管理模块功能点测试",
+        "uid" : "e01df33118b17993",
+        "parentUid" : "9e5c4aa3c7687e66f8094b7a52a92db7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608860045552,
+          "stop" : 1608860090500,
+          "duration" : 44948
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e5c4aa3c7687e66f8094b7a52a92db7"
+    }, {
+      "name" : "15692-MainThread",
+      "children" : [ {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "463971d95e1f26fe",
+        "parentUid" : "05d44e96663a1ba2f702e45ff547145c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608877578954,
+          "stop" : 1608877617469,
+          "duration" : 38515
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "05d44e96663a1ba2f702e45ff547145c"
+    }, {
+      "name" : "16004-MainThread",
+      "children" : [ {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "86379844bd32f196",
+        "parentUid" : "016cdaaf529d123b2301fce432240b4f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608863718898,
+          "stop" : 1608863718898,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "016cdaaf529d123b2301fce432240b4f"
+    }, {
+      "name" : "41844-MainThread",
+      "children" : [ {
+        "name" : "test_add_KnowledgeBase_0_ProjectTesting",
+        "uid" : "3deeb52f80578fa4",
+        "parentUid" : "d7b96c797c8fe6362e5d4f714c250a61",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608793001631,
+          "stop" : 1608793008980,
+          "duration" : 7349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d7b96c797c8fe6362e5d4f714c250a61"
+    }, {
+      "name" : "2528-MainThread",
+      "children" : [ {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "b0d11f702b949c68",
+        "parentUid" : "c803bd1be26c0597389419c7534f78d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608863864609,
+          "stop" : 1608863894585,
+          "duration" : 29976
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c803bd1be26c0597389419c7534f78d3"
+    }, {
+      "name" : "16680-MainThread",
+      "children" : [ {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "9d5274de27717173",
+        "parentUid" : "3344b4ffdf6e56733f836c54cdc02351",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608877214177,
+          "stop" : 1608877214177,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3344b4ffdf6e56733f836c54cdc02351"
+    }, {
+      "name" : "38420-MainThread",
+      "children" : [ {
+        "name" : "test_add_KnowledgeBase_0_ProjectTesting",
+        "uid" : "b3df7583776ca044",
+        "parentUid" : "2aca1b316570eb602345bf969c50db7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608795654991,
+          "stop" : 1608795688336,
+          "duration" : 33345
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2aca1b316570eb602345bf969c50db7a"
+    }, {
+      "name" : "11696-MainThread",
+      "children" : [ {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "a0463c1e2131a8da",
+        "parentUid" : "947779a8b4906802518f4c476a39784e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608876540169,
+          "stop" : 1608876540169,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "947779a8b4906802518f4c476a39784e"
+    }, {
+      "name" : "39380-MainThread",
+      "children" : [ {
+        "name" : "test_add_KnowledgeBase_0_ProjectTesting",
+        "uid" : "fb56dd0a7da0710a",
+        "parentUid" : "e5b9aaee79fe06580fd7971805a4f878",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608779752694,
+          "stop" : 1608779760557,
+          "duration" : 7863
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e5b9aaee79fe06580fd7971805a4f878"
+    }, {
+      "name" : "12196-MainThread",
+      "children" : [ {
+        "name" : "空间管理模块功能点测试",
+        "uid" : "c73045b1d8c37f9",
+        "parentUid" : "051d185b8ca49b5e7b460d7f1d1b3523",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608859084105,
+          "stop" : 1608859115476,
+          "duration" : 31371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "051d185b8ca49b5e7b460d7f1d1b3523"
+    }, {
+      "name" : "39664-MainThread",
+      "children" : [ {
+        "name" : "test_add_KnowledgeBase_0_ProjectTesting",
+        "uid" : "c1d3da429eab5b7",
+        "parentUid" : "08de09f26b8e4819632178a8e25bf7ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608792596093,
+          "stop" : 1608792622030,
+          "duration" : 25937
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "08de09f26b8e4819632178a8e25bf7ce"
+    }, {
+      "name" : "41472-MainThread",
+      "children" : [ {
+        "name" : "test_add_KnowledgeBase_0_ProjectTesting",
+        "uid" : "9eceebb75de2c9cd",
+        "parentUid" : "51bfb5a8e785fb1db6b947bf33c4b2a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608793095100,
+          "stop" : 1608793119334,
+          "duration" : 24234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "51bfb5a8e785fb1db6b947bf33c4b2a6"
+    }, {
+      "name" : "38228-MainThread",
+      "children" : [ {
+        "name" : "test_login_0_admin",
+        "uid" : "d6bb2b530f24a042",
+        "parentUid" : "15b439869566c6a9d047f5d6bbe6d96c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608779528851,
+          "stop" : 1608779538753,
+          "duration" : 9902
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "15b439869566c6a9d047f5d6bbe6d96c"
+    }, {
+      "name" : "14600-MainThread",
+      "children" : [ {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "aa121a2e86d23d4",
+        "parentUid" : "e189d2531dbe02b0d23976722e6a4c72",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608875455186,
+          "stop" : 1608875455186,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e189d2531dbe02b0d23976722e6a4c72"
+    }, {
+      "name" : "31324-MainThread",
+      "children" : [ {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "9859448fd823b833",
+        "parentUid" : "992e4b8e749e5905ca72d4ecaeb287bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608796597320,
+          "stop" : 1608796628307,
+          "duration" : 30987
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "992e4b8e749e5905ca72d4ecaeb287bc"
+    } ],
+    "uid" : "f46b3a8b70aba09a42d57d86bad3cadc"
+  } ]
+}

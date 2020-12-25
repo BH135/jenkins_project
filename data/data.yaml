@@ -1,0 +1,9 @@
+test_people:
+  test_people1:
+    username: "admin"
+    password: "tydt_123456"
+
+#test_people2:
+#  username: "houxiaoying"
+#  password: "123456"
+

@@ -8,12 +8,7 @@ from tool.read_txt_filestore import read_txt
 
 log = GetLogger().get_logger()
 
-def get_data():
-    arrs = []
-    for data in read_txt():
-        arrs.append(tuple(data.strip().split(",")))
 
-    return arrs[1::]
 
 # 新建 登录测试类 并 继承 unittest.TestCase
 class TestLogin():

@@ -1,0 +1,106 @@
+[32mINFO    [0m root:base.py:13 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="dba1891e9c6380d62ad96dcedd8f776b")>
+[32mINFO    [0m root:base.py:13 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="dba1891e9c6380d62ad96dcedd8f776b")>
+[32mINFO    [0m root:page_login.py:67 [page_loging] 正在执行登陆操作，用户名：admin 密码：tydt_123456
+[32mINFO    [0m root:page_login.py:18 [page_loging] 对：('name', 'username') 元素 输入用户名：admin 操作
+[32mINFO    [0m root:base.py:31 正在给元素('name', 'username') 输入内容: admin
+[32mINFO    [0m root:base.py:18 正在定位: ('name', 'username') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:36 正在给元素: ('name', 'username') 清空
+[32mINFO    [0m root:base.py:39 正在给元素: ('name', 'username') 输入内容
+[32mINFO    [0m root:page_login.py:24 [page_loging] 对：('name', 'password') 元素 输入密码：tydt_123456 操作
+[32mINFO    [0m root:base.py:31 正在给元素('name', 'password') 输入内容: tydt_123456
+[32mINFO    [0m root:base.py:18 正在定位: ('name', 'password') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:36 正在给元素: ('name', 'password') 清空
+[32mINFO    [0m root:base.py:39 正在给元素: ('name', 'password') 输入内容
+[32mINFO    [0m root:page_login.py:29 [page_loging] 对：None 进行截图操作
+[32mINFO    [0m root:page_login.py:36 [page_loging] 对：('name', 'validateCode') 元素 输入验证码：1
+[32mINFO    [0m root:base.py:31 正在给元素('name', 'validateCode') 输入内容: 1
+[32mINFO    [0m root:base.py:18 正在定位: ('name', 'validateCode') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:36 正在给元素: ('name', 'validateCode') 清空
+[32mINFO    [0m root:base.py:39 正在给元素: ('name', 'validateCode') 输入内容
+[32mINFO    [0m root:base.py:31 正在给元素('name', 'validateCode') 输入内容: 1
+[32mINFO    [0m root:base.py:18 正在定位: ('name', 'validateCode') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:36 正在给元素: ('name', 'validateCode') 清空
+[32mINFO    [0m root:base.py:39 正在给元素: ('name', 'validateCode') 输入内容
+[32mINFO    [0m root:base.py:26 正在对:('id', 'btnSubmit') 元素实行点击事件
+[32mINFO    [0m root:base.py:18 正在定位: ('id', 'btnSubmit') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:26 正在对:('id', 'cim') 元素实行点击事件
+[32mINFO    [0m root:base.py:18 正在定位: ('id', 'cim') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:67 正在执行切换title值为: /html/head/title窗口
+[32mINFO    [0m root:base.py:74 正在遍历handles：CDwindow-D12CDB6382051A7787D5DBD48094CE26-->['CDwindow-D12CDB6382051A7787D5DBD48094CE26', 'CDwindow-5E7E2804A8C5D62E36D7B23BC84D6FC4']
+[32mINFO    [0m root:base.py:77 切换 :CDwindow-D12CDB6382051A7787D5DBD48094CE26 窗口
+[32mINFO    [0m root:base.py:79 判断当前页面title：绿色数字城市平台 是否等于指定的title：/html/head/title
+[32mINFO    [0m root:base.py:74 正在遍历handles：CDwindow-5E7E2804A8C5D62E36D7B23BC84D6FC4-->['CDwindow-D12CDB6382051A7787D5DBD48094CE26', 'CDwindow-5E7E2804A8C5D62E36D7B23BC84D6FC4']
+[32mINFO    [0m root:base.py:77 切换 :CDwindow-5E7E2804A8C5D62E36D7B23BC84D6FC4 窗口
+[32mINFO    [0m root:base.py:79 判断当前页面title： 是否等于指定的title：/html/head/title
+[32mINFO    [0m root:base.py:26 正在对:('id', '2079') 元素实行点击事件
+[32mINFO    [0m root:base.py:18 正在定位: ('id', '2079') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:87 正在获取frame: frmright 元素
+[32mINFO    [0m root:base.py:26 正在对:('xpath', '//*[@id="toolbar"]/a[1]') 元素实行点击事件
+[32mINFO    [0m root:base.py:18 正在定位: ('xpath', '//*[@id="toolbar"]/a[1]') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:87 正在获取frame: layui-layer-iframe1 元素
+[32mINFO    [0m root:page_knowledgebase.py:45 [page_loging] 对：('name', 'policyTitle') 元素 输入标题：ProjectTesting 操作
+[32mINFO    [0m root:base.py:31 正在给元素('name', 'policyTitle') 输入内容: ProjectTesting
+[32mINFO    [0m root:base.py:18 正在定位: ('name', 'policyTitle') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:36 正在给元素: ('name', 'policyTitle') 清空
+[32mINFO    [0m root:base.py:39 正在给元素: ('name', 'policyTitle') 输入内容
+[32mINFO    [0m root:page_knowledgebase.py:53 [page_loging] 对：('name', 'policySource') 元素 输入来源：AutomatedTesting 操作
+[32mINFO    [0m root:base.py:31 正在给元素('name', 'policySource') 输入内容: AutomatedTesting
+[32mINFO    [0m root:base.py:18 正在定位: ('name', 'policySource') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:36 正在给元素: ('name', 'policySource') 清空
+[32mINFO    [0m root:base.py:39 正在给元素: ('name', 'policySource') 输入内容
+[32mINFO    [0m root:base.py:26 正在对:('xpath', '//*[@id="form-policy-add"]/div[2]/div[1]/div/div/select/option[3]') 元素实行点击事件
+[32mINFO    [0m root:base.py:18 正在定位: ('xpath', '//*[@id="form-policy-add"]/div[2]/div[1]/div/div/select/option[3]') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:26 正在对:('name', 'policyTime') 元素实行点击事件
+[32mINFO    [0m root:base.py:18 正在定位: ('name', 'policyTime') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:26 正在对:('css selector', 'td.day.active') 元素实行点击事件
+[32mINFO    [0m root:base.py:18 正在定位: ('css selector', 'td.day.active') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:26 正在对:('id', 'fileBtn') 元素实行点击事件
+[32mINFO    [0m root:base.py:18 正在定位: ('id', 'fileBtn') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:87 正在获取frame: layui-layer-iframe1 元素
+[32mINFO    [0m root:base.py:26 正在对:('id', 'filePicker') 元素实行点击事件
+[32mINFO    [0m root:base.py:18 正在定位: ('id', 'filePicker') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:92 正在上传文件: E:\城市项目.xlsx 
+[32mINFO    [0m root:base.py:43 正在获取元素: ('css selector', '#upload-list tr#WU_FILE_0 td') 文本值
+[32mINFO    [0m root:base.py:18 正在定位: ('css selector', '#upload-list tr#WU_FILE_0 td') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:page_knowledgebase.py:92 [page_loging] 正在获取上传结果：城市项目.xlsx
+[32mINFO    [0m root:base.py:43 正在获取元素: ('css selector', '#upload-list tr#WU_FILE_0 td') 文本值
+[32mINFO    [0m root:base.py:18 正在定位: ('css selector', '#upload-list tr#WU_FILE_0 td') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:43 正在获取元素: ('css selector', '#upload-list tr#WU_FILE_0 td') 文本值
+[32mINFO    [0m root:base.py:18 正在定位: ('css selector', '#upload-list tr#WU_FILE_0 td') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:page_knowledgebase.py:92 [page_loging] 正在获取上传结果：城市项目.xlsx
+[32mINFO    [0m root:base.py:43 正在获取元素: ('css selector', '#upload-list tr#WU_FILE_0 td') 文本值
+[32mINFO    [0m root:base.py:18 正在定位: ('css selector', '#upload-list tr#WU_FILE_0 td') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:97 正在退出frame表单: <bound method SwitchTo.default_content of <selenium.webdriver.remote.switch_to.SwitchTo object at 0x000001AB769767F0>> 
+[32mINFO    [0m root:base.py:87 正在获取frame: frmright 元素
+[32mINFO    [0m root:base.py:87 正在获取frame: layui-layer-iframe1 元素
+[32mINFO    [0m root:base.py:26 正在对:('class name', 'layui-layer-btn0') 元素实行点击事件
+[32mINFO    [0m root:base.py:18 正在定位: ('class name', 'layui-layer-btn0') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:page_knowledgebase.py:112 [page_loging] 对：('class name', 'note-editable') 元素 输入内容：Automatic test of Tongyuan Technology 操作
+[32mINFO    [0m root:base.py:31 正在给元素('class name', 'note-editable') 输入内容: Automatic test of Tongyuan Technology
+[32mINFO    [0m root:base.py:18 正在定位: ('class name', 'note-editable') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:36 正在给元素: ('class name', 'note-editable') 清空
+[32mINFO    [0m root:base.py:39 正在给元素: ('class name', 'note-editable') 输入内容
+[32mINFO    [0m root:base.py:97 正在退出frame表单: <bound method SwitchTo.default_content of <selenium.webdriver.remote.switch_to.SwitchTo object at 0x000001AB769767F0>> 
+[32mINFO    [0m root:base.py:87 正在获取frame: frmright 元素
+[32mINFO    [0m root:base.py:26 正在对:('class name', 'layui-layer-btn0') 元素实行点击事件
+[32mINFO    [0m root:base.py:18 正在定位: ('class name', 'layui-layer-btn0') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:43 正在获取元素: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 文本值
+[32mINFO    [0m root:base.py:18 正在定位: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:43 正在获取元素: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 文本值
+[32mINFO    [0m root:base.py:18 正在定位: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:31 正在给元素('name', 'policyTitle') 输入内容: ProjectTesting
+[32mINFO    [0m root:base.py:18 正在定位: ('name', 'policyTitle') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:36 正在给元素: ('name', 'policyTitle') 清空
+[32mINFO    [0m root:base.py:39 正在给元素: ('name', 'policyTitle') 输入内容
+[32mINFO    [0m root:base.py:43 正在获取元素: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 文本值
+[32mINFO    [0m root:base.py:18 正在定位: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:43 正在获取元素: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 文本值
+[32mINFO    [0m root:base.py:18 正在定位: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:26 正在对:('css selector', 'a.btn.btn-warning.btn-reset') 元素实行点击事件
+[32mINFO    [0m root:base.py:18 正在定位: ('css selector', 'a.btn.btn-warning.btn-reset') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:31 正在给元素('name', 'policySource') 输入内容: AutomatedTesting
+[32mINFO    [0m root:base.py:18 正在定位: ('name', 'policySource') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:36 正在给元素: ('name', 'policySource') 清空
+[32mINFO    [0m root:base.py:39 正在给元素: ('name', 'policySource') 输入内容
+[32mINFO    [0m root:base.py:43 正在获取元素: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 文本值
+[32mINFO    [0m root:base.py:18 正在定位: ('xpath', '//*[@id="bootstrap-table"]/tbody/tr/td[3]') 元素，默认定位超时时间为：30

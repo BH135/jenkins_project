@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "ModuleNotFoundError: No module named 'base'",
+      "children" : [ {
+        "name" : "输入正确用户名和密码登录测试",
+        "uid" : "b73cd7470daebb25",
+        "parentUid" : "7d645cf3e76a584e0f4a0491bfde34ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609205773066,
+          "stop" : 1609205773066,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'tydt_123456'", "'admin'" ]
+      } ],
+      "uid" : "7d645cf3e76a584e0f4a0491bfde34ba"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "输入正确用户名和密码登录测试",
+        "uid" : "3282f126dbdf467d",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609300129664,
+          "stop" : 1609300178209,
+          "duration" : 48545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'系统管理员'", "'tydt_12345'", "'admin'" ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "AttributeError: 'KnowledgeBase' object has no attribute 'page_gest_text_search'",
+      "children" : [ {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "275420c298089ede",
+        "parentUid" : "a93a3e831defc74a230f1f88adf65e54",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609300205265,
+          "stop" : 1609300241292,
+          "duration" : 36027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Automatic test of Tongyuan Technology'", "'AutomatedTesting'", "'ProjectTesting'" ]
+      } ],
+      "uid" : "a93a3e831defc74a230f1f88adf65e54"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

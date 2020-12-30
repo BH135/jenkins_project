@@ -1,2 +1,2 @@
-Spacename,Searchname
+Spacename,Spacename
 LSSZ,LSSZ

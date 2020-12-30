@@ -1,41 +1,51 @@
 [ {
-  "uid" : "a30dba6a3823c841",
-  "name" : "输入正确用户名和密码登录测试",
-  "time" : {
-    "start" : 1608877702320,
-    "stop" : 1608877712107,
-    "duration" : 9787
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ff92a19a661384c8",
+  "uid" : "80b995252d1c9c4a",
   "name" : "文件管理模块功能点测试",
   "time" : {
-    "start" : 1608877832596,
-    "stop" : 1608877868607,
-    "duration" : 36011
+    "start" : 1609212580415,
+    "stop" : 1609212605362,
+    "duration" : 24947
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c09d504990b7aa78",
-  "name" : "空间管理模块功能点测试",
-  "time" : {
-    "start" : 1608877773915,
-    "stop" : 1608877816680,
-    "duration" : 42765
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5c8266644c2cb5be",
+  "uid" : "954b24336bf1da5c",
   "name" : "政策管理模块功能点测试",
   "time" : {
-    "start" : 1608877725940,
-    "stop" : 1608877759144,
-    "duration" : 33204
+    "start" : 1609212449676,
+    "stop" : 1609212483049,
+    "duration" : 33373
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7281ddb25f40f2bd",
+  "name" : "输入正确用户名和密码登录测试",
+  "time" : {
+    "start" : 1609212411656,
+    "stop" : 1609212434378,
+    "duration" : 22722
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de5b4c2682ffe359",
+  "name" : "空间管理模块功能点测试",
+  "time" : {
+    "start" : 1609212524390,
+    "stop" : 1609212552756,
+    "duration" : 28366
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9931a9437df093dd",
+  "name" : "输入正确用户名和密码登录测试",
+  "time" : {
+    "start" : 1609293001472,
+    "stop" : 1609293055143,
+    "duration" : 53671
+  },
+  "status" : "broken",
   "severity" : "normal"
 } ]

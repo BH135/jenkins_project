@@ -5,9 +5,9 @@
     "name" : "绿色数字城市CIM基础平台",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 3,
       "unknown" : 0,
       "total" : 4
     }

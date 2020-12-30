@@ -1,0 +1,100 @@
+{
+  "bad86594aec1fc9c82d15ccea442dc51" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b73cd7470daebb25",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'base'",
+      "time" : {
+        "start" : 1609205773066,
+        "stop" : 1609205773066,
+        "duration" : 0
+      }
+    } ]
+  },
+  "88aeb93e5c87d3ab9eea78948cb06bd2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "275420c298089ede",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'KnowledgeBase' object has no attribute 'page_gest_text_search'",
+      "time" : {
+        "start" : 1609300205265,
+        "stop" : 1609300241292,
+        "duration" : 36027
+      }
+    } ]
+  },
+  "da50f1c40c781833d7dee8883b25d655" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3282f126dbdf467d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1609300129664,
+        "stop" : 1609300178209,
+        "duration" : 48545
+      }
+    } ]
+  },
+  "8fff8de36741351576152d2331421813" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf91c1cb6bb0772c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609300268197,
+        "stop" : 1609300298167,
+        "duration" : 29970
+      }
+    } ]
+  },
+  "2fe120b14a48b53ae20724bd83148dd6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13004435056bb9c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609300314386,
+        "stop" : 1609300342208,
+        "duration" : 27822
+      }
+    } ]
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "uid" : "275420c298089ede",
+  "name" : "政策管理模块功能点测试",
+  "fullName" : "scripts.test02_KnowledgeBase.TestKnowledgeBase#test_add_KnowledgeBase",
+  "historyId" : "88aeb93e5c87d3ab9eea78948cb06bd2",
+  "time" : {
+    "start" : 1609300205265,
+    "stop" : 1609300241292,
+    "duration" : 36027
+  },
+  "description" : "此条用例针对知识库模块下政策管理模块的增删改查测试",
+  "descriptionHtml" : "<p>此条用例针对知识库模块下政策管理模块的增删改查测试</p>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'KnowledgeBase' object has no attribute 'page_gest_text_search'",
+  "statusTrace" : "self = <test02_KnowledgeBase.TestKnowledgeBase object at 0x000001AB76AFDC10>, title = 'ProjectTesting', source = 'AutomatedTesting', content = 'Automatic test of Tongyuan Technology'\n\n    @pytest.mark.parametrize((\"title\", \"source\", \"content\"),[(\"ProjectTesting\", \"AutomatedTesting\", \"Automatic test of Tongyuan Technology\")])\n    @allure.feature(\"绿色数字城市CIM基础平台\")\n    @allure.story(\"知识库\")\n    @allure.title(\"政策管理模块功能点测试\")\n    @allure.description(\"此条用例针对知识库模块下政策管理模块的增删改查测试\")\n    def test_add_KnowledgeBase(self, title, source, content):\n        # 调用 组合业务方法-01  此方法为了断言上传文件是否成功\n        self.kb.page_knowledgebase_one(title, source)\n        # 断言是否上传成功\n        msg = self.kb.page_get_text_upload()\n        assert msg == \"城市项目.xlsx\"\n    \n        # 调用 组合业务方法-02  此方法为了断言业务是否新增成功\n        self.kb.page_knowledgebase_two(content)\n        # 断言是否新增成功\n        msg = self.kb.page_get_text_new()\n        assert msg == \"ProjectTesting\"\n    \n        #调用 组合业务方法-03 次方法断言搜索结果\n        self.kb.page_knowledgebase_three(title)\n        # 断言搜索结果\n        msg = self.kb.page_get_text_search()\n        try:\n            assert msg == \"ProjectTesting\"\n        except Exception as e:\n            # 截图\n            with allure.step('异常截图'):\n                self.kb.base_get_image1()\n                log.error(\"错误：{}\".format(e))\n    \n        # 调用 组合业务方法-04 次方法断言搜索来结果\n        self.kb.page_knowledgebase_four(source)\n        # 断言搜索结果\n>       msg = self.kb.page_gest_text_search()\nE       AttributeError: 'KnowledgeBase' object has no attribute 'page_gest_text_search'\n\nscripts\\test02_KnowledgeBase.py:62: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1609300180902,
+      "stop" : 1609300205264,
+      "duration" : 24362
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1609300187550,
+        "stop" : 1609300187666,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'admin'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1609300187666,
+        "stop" : 1609300187783,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "pwd",
+        "value" : "'tydt_123456'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入验证码",
+      "time" : {
+        "start" : 1609300189998,
+        "stop" : 1609300205191,
+        "duration" : 15193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "img_path",
+        "value" : "'D:/xi.png'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1609300205191,
+        "stop" : 1609300205264,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "此条用例针对知识库模块下政策管理模块的增删改查测试",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'KnowledgeBase' object has no attribute 'page_gest_text_search'",
+    "statusTrace" : "self = <test02_KnowledgeBase.TestKnowledgeBase object at 0x000001AB76AFDC10>, title = 'ProjectTesting', source = 'AutomatedTesting', content = 'Automatic test of Tongyuan Technology'\n\n    @pytest.mark.parametrize((\"title\", \"source\", \"content\"),[(\"ProjectTesting\", \"AutomatedTesting\", \"Automatic test of Tongyuan Technology\")])\n    @allure.feature(\"绿色数字城市CIM基础平台\")\n    @allure.story(\"知识库\")\n    @allure.title(\"政策管理模块功能点测试\")\n    @allure.description(\"此条用例针对知识库模块下政策管理模块的增删改查测试\")\n    def test_add_KnowledgeBase(self, title, source, content):\n        # 调用 组合业务方法-01  此方法为了断言上传文件是否成功\n        self.kb.page_knowledgebase_one(title, source)\n        # 断言是否上传成功\n        msg = self.kb.page_get_text_upload()\n        assert msg == \"城市项目.xlsx\"\n    \n        # 调用 组合业务方法-02  此方法为了断言业务是否新增成功\n        self.kb.page_knowledgebase_two(content)\n        # 断言是否新增成功\n        msg = self.kb.page_get_text_new()\n        assert msg == \"ProjectTesting\"\n    \n        #调用 组合业务方法-03 次方法断言搜索结果\n        self.kb.page_knowledgebase_three(title)\n        # 断言搜索结果\n        msg = self.kb.page_get_text_search()\n        try:\n            assert msg == \"ProjectTesting\"\n        except Exception as e:\n            # 截图\n            with allure.step('异常截图'):\n                self.kb.base_get_image1()\n                log.error(\"错误：{}\".format(e))\n    \n        # 调用 组合业务方法-04 次方法断言搜索来结果\n        self.kb.page_knowledgebase_four(source)\n        # 断言搜索结果\n>       msg = self.kb.page_gest_text_search()\nE       AttributeError: 'KnowledgeBase' object has no attribute 'page_gest_text_search'\n\nscripts\\test02_KnowledgeBase.py:62: AttributeError",
+    "steps" : [ {
+      "name" : "点击CIM跳转至绿色数字城市CIM基础平台",
+      "time" : {
+        "start" : 1609300205266,
+        "stop" : 1609300207376,
+        "duration" : 2110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击知识库",
+      "time" : {
+        "start" : 1609300207376,
+        "stop" : 1609300216781,
+        "duration" : 9405
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "35c1009ce998db64",
+        "name" : "截图",
+        "source" : "35c1009ce998db64.png",
+        "type" : "image/png",
+        "size" : 71836
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击新增",
+      "time" : {
+        "start" : 1609300216781,
+        "stop" : 1609300220078,
+        "duration" : 3297
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "11bb773245608294",
+        "name" : "截图",
+        "source" : "11bb773245608294.png",
+        "type" : "image/png",
+        "size" : 101760
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入标题",
+      "time" : {
+        "start" : 1609300220078,
+        "stop" : 1609300222682,
+        "duration" : 2604
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b150bcfe18873e53",
+        "name" : "截图",
+        "source" : "b150bcfe18873e53.png",
+        "type" : "image/png",
+        "size" : 109465
+      } ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'ProjectTesting'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入来源",
+      "time" : {
+        "start" : 1609300222682,
+        "stop" : 1609300223176,
+        "duration" : 494
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "71f899f910f0402b",
+        "name" : "截图",
+        "source" : "71f899f910f0402b.png",
+        "type" : "image/png",
+        "size" : 111581
+      } ],
+      "parameters" : [ {
+        "name" : "source",
+        "value" : "'AutomatedTesting'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择类型",
+      "time" : {
+        "start" : 1609300223176,
+        "stop" : 1609300223624,
+        "duration" : 448
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "74dcc003fe45c509",
+        "name" : "截图",
+        "source" : "74dcc003fe45c509.png",
+        "type" : "image/png",
+        "size" : 111909
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择发布时间",
+      "time" : {
+        "start" : 1609300223624,
+        "stop" : 1609300224258,
+        "duration" : 634
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c83f37a7aa122ef4",
+        "name" : "截图",
+        "source" : "c83f37a7aa122ef4.png",
+        "type" : "image/png",
+        "size" : 111731
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "上传文件",
+      "time" : {
+        "start" : 1609300224258,
+        "stop" : 1609300232884,
+        "duration" : 8626
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1a3f90c6fce30f15",
+        "name" : "截图",
+        "source" : "1a3f90c6fce30f15.png",
+        "type" : "image/png",
+        "size" : 116533
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "上传确定",
+      "time" : {
+        "start" : 1609300232954,
+        "stop" : 1609300233540,
+        "duration" : 586
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6fc4fcbbf18c1eeb",
+        "name" : "截图",
+        "source" : "6fc4fcbbf18c1eeb.png",
+        "type" : "image/png",
+        "size" : 111731
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入内容",
+      "time" : {
+        "start" : 1609300233540,
+        "stop" : 1609300234253,
+        "duration" : 713
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e3c6ac808860795e",
+        "name" : "截图",
+        "source" : "e3c6ac808860795e.png",
+        "type" : "image/png",
+        "size" : 114317
+      } ],
+      "parameters" : [ {
+        "name" : "content",
+        "value" : "'Automatic test of Tongyuan Technology'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "新增业务确认测试",
+      "time" : {
+        "start" : 1609300234253,
+        "stop" : 1609300234794,
+        "duration" : 541
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "736359671774f6a",
+        "name" : "截图",
+        "source" : "736359671774f6a.png",
+        "type" : "image/png",
+        "size" : 101500
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "标题搜索测试",
+      "time" : {
+        "start" : 1609300237841,
+        "stop" : 1609300238321,
+        "duration" : 480
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d46864e5e51877eb",
+        "name" : "截图",
+        "source" : "d46864e5e51877eb.png",
+        "type" : "image/png",
+        "size" : 90328
+      } ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'ProjectTesting'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击重置测试",
+      "time" : {
+        "start" : 1609300240351,
+        "stop" : 1609300240817,
+        "duration" : 466
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e791064b21e298a",
+        "name" : "截图",
+        "source" : "3e791064b21e298a.png",
+        "type" : "image/png",
+        "size" : 89387
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "来源搜索测试",
+      "time" : {
+        "start" : 1609300240817,
+        "stop" : 1609300241271,
+        "duration" : 454
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "89a601b2dd380825",
+        "name" : "截图",
+        "source" : "89a601b2dd380825.png",
+        "type" : "image/png",
+        "size" : 90660
+      } ],
+      "parameters" : [ {
+        "name" : "source",
+        "value" : "'AutomatedTesting'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "32e3a43bcf72a69b",
+      "name" : "log",
+      "source" : "32e3a43bcf72a69b.txt",
+      "type" : "text/plain",
+      "size" : 11789
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "hasContent" : true,
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1609300241304,
+      "stop" : 1609300243548,
+      "duration" : 2244
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "绿色数字城市CIM基础平台"
+  }, {
+    "name" : "story",
+    "value" : "知识库"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test02_KnowledgeBase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKnowledgeBase"
+  }, {
+    "name" : "host",
+    "value" : "Gxl"
+  }, {
+    "name" : "thread",
+    "value" : "17360-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test02_KnowledgeBase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "content",
+    "value" : "'Automatic test of Tongyuan Technology'"
+  }, {
+    "name" : "source",
+    "value" : "'AutomatedTesting'"
+  }, {
+    "name" : "title",
+    "value" : "'ProjectTesting'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "275420c298089ede.json",
+  "parameterValues" : [ "'Automatic test of Tongyuan Technology'", "'AutomatedTesting'", "'ProjectTesting'" ]
+}

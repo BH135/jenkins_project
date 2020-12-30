@@ -1,15 +1,15 @@
 import allure
+from time import sleep
 import page
 from base.base import Base
-from time import sleep
-from tool.verificationcode import Know
 from tool.get_logger import GetLogger
+from tool.verificationcode import Know
 
 log = GetLogger().get_logger()
 
 class PageLogin(Base,Know):
     # 点击登录链接
-    # def page_click_login_link(self):
+    # def page_click_l_link(self):
     #     self.base_click(page.login_link)
 
     # 输入用户名
@@ -47,8 +47,10 @@ class PageLogin(Base,Know):
     def page_click_login_bth(self):
         self.base_click(page.login_btn)
 
+    @allure.step(title='是否登陆成功')
     # 判断是否登录成功
     def page_get_error_info(self):
+        self.base_get_image()
         return self.base_get_text(page.login_err_info)
 
     # 点击异常信息框 确定

@@ -1,0 +1,523 @@
+{
+  "uid" : "2624b813dda59f27",
+  "name" : "政策管理模块功能点测试",
+  "fullName" : "scripts.test02_KnowledgeBase.TestKnowledgeBase#test_add_KnowledgeBase_0_ProjectTesting",
+  "historyId" : "0a9c9f7d1d2f3aedc4a09123fe9f6210",
+  "time" : {
+    "start" : 1609212095166,
+    "stop" : 1609212143905,
+    "duration" : 48739
+  },
+  "description" : "此条用例针对知识库模块下政策管理模块的增删改查测试",
+  "descriptionHtml" : "<p>此条用例针对知识库模块下政策管理模块的增删改查测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1609212069306,
+      "stop" : 1609212095164,
+      "duration" : 25858
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1609212076991,
+        "stop" : 1609212077104,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'admin'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1609212077104,
+        "stop" : 1609212077241,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "pwd",
+        "value" : "'tydt_123456'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入验证码",
+      "time" : {
+        "start" : 1609212079669,
+        "stop" : 1609212095081,
+        "duration" : 15412
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "img_path",
+        "value" : "'D:/xi.png'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1609212095081,
+        "stop" : 1609212095164,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "此条用例针对知识库模块下政策管理模块的增删改查测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击CIM跳转至绿色数字城市CIM基础平台",
+      "time" : {
+        "start" : 1609212095167,
+        "stop" : 1609212097310,
+        "duration" : 2143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击知识库",
+      "time" : {
+        "start" : 1609212097310,
+        "stop" : 1609212119790,
+        "duration" : 22480
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3dc83806cac2b520",
+        "name" : "截图",
+        "source" : "3dc83806cac2b520.png",
+        "type" : "image/png",
+        "size" : 71836
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击新增",
+      "time" : {
+        "start" : 1609212119790,
+        "stop" : 1609212123212,
+        "duration" : 3422
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e5ff01dd637d2c6c",
+        "name" : "截图",
+        "source" : "e5ff01dd637d2c6c.png",
+        "type" : "image/png",
+        "size" : 92919
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入标题",
+      "time" : {
+        "start" : 1609212123212,
+        "stop" : 1609212126502,
+        "duration" : 3290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b04e6013ee37443",
+        "name" : "截图",
+        "source" : "b04e6013ee37443.png",
+        "type" : "image/png",
+        "size" : 109465
+      } ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'ProjectTesting'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入来源",
+      "time" : {
+        "start" : 1609212126502,
+        "stop" : 1609212126999,
+        "duration" : 497
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4b7810040c49fc7f",
+        "name" : "截图",
+        "source" : "4b7810040c49fc7f.png",
+        "type" : "image/png",
+        "size" : 111581
+      } ],
+      "parameters" : [ {
+        "name" : "source",
+        "value" : "'AutomatedTesting'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "选择类型",
+      "time" : {
+        "start" : 1609212126999,
+        "stop" : 1609212127420,
+        "duration" : 421
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "447c8bc5a3ad2371",
+        "name" : "截图",
+        "source" : "447c8bc5a3ad2371.png",
+        "type" : "image/png",
+        "size" : 111909
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "选择发布时间",
+      "time" : {
+        "start" : 1609212127420,
+        "stop" : 1609212128106,
+        "duration" : 686
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db8ed6a9a74de4b2",
+        "name" : "截图",
+        "source" : "db8ed6a9a74de4b2.png",
+        "type" : "image/png",
+        "size" : 111721
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "上传文件",
+      "time" : {
+        "start" : 1609212128106,
+        "stop" : 1609212134592,
+        "duration" : 6486
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9c26eab181e3e709",
+        "name" : "截图",
+        "source" : "9c26eab181e3e709.png",
+        "type" : "image/png",
+        "size" : 116533
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "上传确定",
+      "time" : {
+        "start" : 1609212134658,
+        "stop" : 1609212135205,
+        "duration" : 547
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cf21bcf53126859d",
+        "name" : "截图",
+        "source" : "cf21bcf53126859d.png",
+        "type" : "image/png",
+        "size" : 111721
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入内容",
+      "time" : {
+        "start" : 1609212135205,
+        "stop" : 1609212135909,
+        "duration" : 704
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2db69843648839c3",
+        "name" : "截图",
+        "source" : "2db69843648839c3.png",
+        "type" : "image/png",
+        "size" : 114307
+      } ],
+      "parameters" : [ {
+        "name" : "content",
+        "value" : "'Automatic test of Tongyuan Technology'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "新增业务确认测试",
+      "time" : {
+        "start" : 1609212135909,
+        "stop" : 1609212136394,
+        "duration" : 485
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fec7c86fe841457b",
+        "name" : "截图",
+        "source" : "fec7c86fe841457b.png",
+        "type" : "image/png",
+        "size" : 105501
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "标题搜索测试",
+      "time" : {
+        "start" : 1609212139478,
+        "stop" : 1609212139969,
+        "duration" : 491
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9a45022a94352c4f",
+        "name" : "截图",
+        "source" : "9a45022a94352c4f.png",
+        "type" : "image/png",
+        "size" : 90354
+      } ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'ProjectTesting'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "异常截图",
+      "time" : {
+        "start" : 1609212139995,
+        "stop" : 1609212140374,
+        "duration" : 379
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "249f88ba7c56c2ed",
+        "name" : "截图",
+        "source" : "249f88ba7c56c2ed.png",
+        "type" : "image/png",
+        "size" : 90298
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击重置测试",
+      "time" : {
+        "start" : 1609212142375,
+        "stop" : 1609212142842,
+        "duration" : 467
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cb5f9e11146e72c",
+        "name" : "截图",
+        "source" : "cb5f9e11146e72c.png",
+        "type" : "image/png",
+        "size" : 89411
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "来源搜索测试",
+      "time" : {
+        "start" : 1609212142843,
+        "stop" : 1609212143313,
+        "duration" : 470
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fe545f897f38822b",
+        "name" : "截图",
+        "source" : "fe545f897f38822b.png",
+        "type" : "image/png",
+        "size" : 90684
+      } ],
+      "parameters" : [ {
+        "name" : "source",
+        "value" : "'AutomatedTesting'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "删除测试业务",
+      "time" : {
+        "start" : 1609212143345,
+        "stop" : 1609212143905,
+        "duration" : 560
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eb256cf12e245f7f",
+        "name" : "截图",
+        "source" : "eb256cf12e245f7f.png",
+        "type" : "image/png",
+        "size" : 97047
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "41bcee3e5916ff1d",
+      "name" : "log",
+      "source" : "41bcee3e5916ff1d.txt",
+      "type" : "text/plain",
+      "size" : 11714
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 16,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 16,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1609212143906,
+      "stop" : 1609212146187,
+      "duration" : 2281
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "知识库"
+  }, {
+    "name" : "feature",
+    "value" : "绿色数字城市CIM基础平台"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test02_KnowledgeBase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKnowledgeBase"
+  }, {
+    "name" : "host",
+    "value" : "Gxl"
+  }, {
+    "name" : "thread",
+    "value" : "14440-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test02_KnowledgeBase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2624b813dda59f27.json",
+  "parameterValues" : [ ]
+}

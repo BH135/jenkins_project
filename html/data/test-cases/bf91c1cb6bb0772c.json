@@ -1,0 +1,351 @@
+{
+  "uid" : "bf91c1cb6bb0772c",
+  "name" : "空间管理模块功能点测试",
+  "fullName" : "scripts.test03_filestore.TestFileStore#test_add_KnowledgeBase",
+  "historyId" : "8fff8de36741351576152d2331421813",
+  "time" : {
+    "start" : 1609300268197,
+    "stop" : 1609300298167,
+    "duration" : 29970
+  },
+  "description" : "此条用例针文件存储模块下空间管理模块的增删改查测试",
+  "descriptionHtml" : "<p>此条用例针文件存储模块下空间管理模块的增删改查测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1609300243558,
+      "stop" : 1609300268196,
+      "duration" : 24638
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1609300251279,
+        "stop" : 1609300251396,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'admin'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1609300251396,
+        "stop" : 1609300251518,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "pwd",
+        "value" : "'tydt_123456'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入验证码",
+      "time" : {
+        "start" : 1609300253813,
+        "stop" : 1609300268125,
+        "duration" : 14312
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "img_path",
+        "value" : "'D:/xi.png'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1609300268126,
+        "stop" : 1609300268196,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "此条用例针文件存储模块下空间管理模块的增删改查测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击CIM跳转至绿色数字城市CIM基础平台",
+      "time" : {
+        "start" : 1609300268198,
+        "stop" : 1609300270275,
+        "duration" : 2077
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击文件存储",
+      "time" : {
+        "start" : 1609300270276,
+        "stop" : 1609300276668,
+        "duration" : 6392
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4386d1535ddc2f9e",
+        "name" : "截图",
+        "source" : "4386d1535ddc2f9e.png",
+        "type" : "image/png",
+        "size" : 63031
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击空间管理",
+      "time" : {
+        "start" : 1609300276669,
+        "stop" : 1609300278497,
+        "duration" : 1828
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2e393acbb64c95b3",
+        "name" : "截图",
+        "source" : "2e393acbb64c95b3.png",
+        "type" : "image/png",
+        "size" : 99002
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击新增",
+      "time" : {
+        "start" : 1609300278497,
+        "stop" : 1609300279085,
+        "duration" : 588
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "acdd04e1a87e68ef",
+        "name" : "截图",
+        "source" : "acdd04e1a87e68ef.png",
+        "type" : "image/png",
+        "size" : 110413
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入测试业务名称",
+      "time" : {
+        "start" : 1609300279085,
+        "stop" : 1609300280608,
+        "duration" : 1523
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b2bf563b6cbb3b86",
+        "name" : "截图",
+        "source" : "b2bf563b6cbb3b86.png",
+        "type" : "image/png",
+        "size" : 108102
+      } ],
+      "parameters" : [ {
+        "name" : "Spacename",
+        "value" : "'LSSZ'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "业务新增确认测试",
+      "time" : {
+        "start" : 1609300280608,
+        "stop" : 1609300281162,
+        "duration" : 554
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "58b89b286ac2f9cc",
+        "name" : "截图",
+        "source" : "58b89b286ac2f9cc.png",
+        "type" : "image/png",
+        "size" : 110928
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "文件上传测试",
+      "time" : {
+        "start" : 1609300285233,
+        "stop" : 1609300292047,
+        "duration" : 6814
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "859a2c3b16b43591",
+        "name" : "截图",
+        "source" : "859a2c3b16b43591.png",
+        "type" : "image/png",
+        "size" : 87265
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "删除测试数据",
+      "time" : {
+        "start" : 1609300296150,
+        "stop" : 1609300298167,
+        "duration" : 2017
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dc37b14591e94a5e",
+        "name" : "截图",
+        "source" : "dc37b14591e94a5e.png",
+        "type" : "image/png",
+        "size" : 107329
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f5faaee71a7120a8",
+      "name" : "log",
+      "source" : "f5faaee71a7120a8.txt",
+      "type" : "text/plain",
+      "size" : 9054
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1609300298170,
+      "stop" : 1609300300420,
+      "duration" : 2250
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "文件存储"
+  }, {
+    "name" : "feature",
+    "value" : "绿色数字城市CIM基础平台"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test03_filestore"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFileStore"
+  }, {
+    "name" : "host",
+    "value" : "Gxl"
+  }, {
+    "name" : "thread",
+    "value" : "17360-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test03_filestore"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Searchname",
+    "value" : "'LSSZ'"
+  }, {
+    "name" : "Spacename",
+    "value" : "'LSSZ'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf91c1cb6bb0772c.json",
+  "parameterValues" : [ "'LSSZ'", "'LSSZ'" ]
+}

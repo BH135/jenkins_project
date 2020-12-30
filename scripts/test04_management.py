@@ -31,13 +31,13 @@ class TestManagement():
         self.management.page_management_one()
         # 断言是否新增成功
         msg = self.management.page_get_text_new()
-        assert msg, "测试"
+        assert msg == "测试"
 
         # 调用 组合业务方法-02  此方法为了断言业务是否上传成功
         self.management.page_management_tow()
         # 断言是否新增成功
         msg = self.management.page_get_file()
-        assert msg, "城市项目.xlsx"
+        assert msg == "城市项目.xlsx"
 
         # # 调用 组合业务方法-03  此方法为了断言业务是否移动成功
         # self.management.page_management_three()

@@ -9,17 +9,30 @@
         "name" : "TestLogin",
         "children" : [ {
           "name" : "输入正确用户名和密码登录测试",
-          "uid" : "a30dba6a3823c841",
+          "uid" : "7281ddb25f40f2bd",
           "parentUid" : "21d905169c75a9bc37288f2dc0fbf1a1",
           "status" : "passed",
           "time" : {
-            "start" : 1608877702320,
-            "stop" : 1608877712107,
-            "duration" : 9787
+            "start" : 1609212411656,
+            "stop" : 1609212434378,
+            "duration" : 22722
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ ]
+          "parameters" : [ "'系统管理'", "'tydt_123456'", "'admin'" ]
+        }, {
+          "name" : "输入正确用户名和密码登录测试",
+          "uid" : "9931a9437df093dd",
+          "parentUid" : "21d905169c75a9bc37288f2dc0fbf1a1",
+          "status" : "broken",
+          "time" : {
+            "start" : 1609293001472,
+            "stop" : 1609293055143,
+            "duration" : 53671
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'系统管理员'", "'tydt_12345'", "'admin'" ]
         } ],
         "uid" : "21d905169c75a9bc37288f2dc0fbf1a1"
       } ],
@@ -30,13 +43,13 @@
         "name" : "TestKnowledgeBase",
         "children" : [ {
           "name" : "政策管理模块功能点测试",
-          "uid" : "5c8266644c2cb5be",
+          "uid" : "954b24336bf1da5c",
           "parentUid" : "044faf82c7ab246b1a5219326ee5ecee",
           "status" : "passed",
           "time" : {
-            "start" : 1608877725940,
-            "stop" : 1608877759144,
-            "duration" : 33204
+            "start" : 1609212449676,
+            "stop" : 1609212483049,
+            "duration" : 33373
           },
           "flaky" : false,
           "newFailed" : false,
@@ -51,13 +64,13 @@
         "name" : "TestFileStore",
         "children" : [ {
           "name" : "空间管理模块功能点测试",
-          "uid" : "c09d504990b7aa78",
+          "uid" : "de5b4c2682ffe359",
           "parentUid" : "68e2d5a5825c73b3a2b55b81f5122c44",
           "status" : "passed",
           "time" : {
-            "start" : 1608877773915,
-            "stop" : 1608877816680,
-            "duration" : 42765
+            "start" : 1609212524390,
+            "stop" : 1609212552756,
+            "duration" : 28366
           },
           "flaky" : false,
           "newFailed" : false,
@@ -72,13 +85,13 @@
         "name" : "TestManagement",
         "children" : [ {
           "name" : "文件管理模块功能点测试",
-          "uid" : "ff92a19a661384c8",
+          "uid" : "80b995252d1c9c4a",
           "parentUid" : "52ca0ce839657b6f9707603f6b5e2691",
           "status" : "passed",
           "time" : {
-            "start" : 1608877832596,
-            "stop" : 1608877868607,
-            "duration" : 36011
+            "start" : 1609212580415,
+            "stop" : 1609212605362,
+            "duration" : 24947
           },
           "flaky" : false,
           "newFailed" : false,

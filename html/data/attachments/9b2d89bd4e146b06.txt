@@ -1,0 +1,26 @@
+[32mINFO    [0m root:base.py:13 正在获取初始化driver对象: <selenium.webdriver.chrome.webdriver.WebDriver (session="2cef20f386b0618070d8e21f74bcae22")>
+[32mINFO    [0m root:page_login.py:67 [page_loging] 正在执行登陆操作，用户名：admin 密码：tydt_12345
+[32mINFO    [0m root:page_login.py:18 [page_loging] 对：('name', 'username') 元素 输入用户名：admin 操作
+[32mINFO    [0m root:base.py:31 正在给元素('name', 'username') 输入内容: admin
+[32mINFO    [0m root:base.py:18 正在定位: ('name', 'username') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:36 正在给元素: ('name', 'username') 清空
+[32mINFO    [0m root:base.py:39 正在给元素: ('name', 'username') 输入内容
+[32mINFO    [0m root:page_login.py:24 [page_loging] 对：('name', 'password') 元素 输入密码：tydt_12345 操作
+[32mINFO    [0m root:base.py:31 正在给元素('name', 'password') 输入内容: tydt_12345
+[32mINFO    [0m root:base.py:18 正在定位: ('name', 'password') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:36 正在给元素: ('name', 'password') 清空
+[32mINFO    [0m root:base.py:39 正在给元素: ('name', 'password') 输入内容
+[32mINFO    [0m root:page_login.py:29 [page_loging] 对：None 进行截图操作
+[32mINFO    [0m root:page_login.py:36 [page_loging] 对：('name', 'validateCode') 元素 输入验证码：7
+[32mINFO    [0m root:base.py:31 正在给元素('name', 'validateCode') 输入内容: 7
+[32mINFO    [0m root:base.py:18 正在定位: ('name', 'validateCode') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:36 正在给元素: ('name', 'validateCode') 清空
+[32mINFO    [0m root:base.py:39 正在给元素: ('name', 'validateCode') 输入内容
+[32mINFO    [0m root:base.py:31 正在给元素('name', 'validateCode') 输入内容: 7
+[32mINFO    [0m root:base.py:18 正在定位: ('name', 'validateCode') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:36 正在给元素: ('name', 'validateCode') 清空
+[32mINFO    [0m root:base.py:39 正在给元素: ('name', 'validateCode') 输入内容
+[32mINFO    [0m root:base.py:26 正在对:('id', 'btnSubmit') 元素实行点击事件
+[32mINFO    [0m root:base.py:18 正在定位: ('id', 'btnSubmit') 元素，默认定位超时时间为：30
+[32mINFO    [0m root:base.py:43 正在获取元素: ('css selector', '.layui-nav.setbtn span span') 文本值
+[32mINFO    [0m root:base.py:18 正在定位: ('css selector', '.layui-nav.setbtn span span') 元素，默认定位超时时间为：30

@@ -1,0 +1,90 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "绿色数字城市CIM基础平台",
+    "children" : [ {
+      "name" : "用户登录",
+      "children" : [ {
+        "name" : "输入正确用户名和密码登录测试",
+        "uid" : "b73cd7470daebb25",
+        "parentUid" : "18001d7b5b4c013647fc69a8902420fb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609205773066,
+          "stop" : 1609205773066,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'tydt_123456'", "'admin'" ]
+      }, {
+        "name" : "输入正确用户名和密码登录测试",
+        "uid" : "3282f126dbdf467d",
+        "parentUid" : "18001d7b5b4c013647fc69a8902420fb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609300129664,
+          "stop" : 1609300178209,
+          "duration" : 48545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'系统管理员'", "'tydt_12345'", "'admin'" ]
+      } ],
+      "uid" : "18001d7b5b4c013647fc69a8902420fb"
+    }, {
+      "name" : "知识库",
+      "children" : [ {
+        "name" : "政策管理模块功能点测试",
+        "uid" : "275420c298089ede",
+        "parentUid" : "fb203f75b8c6ac2573574ef9e0555657",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609300205265,
+          "stop" : 1609300241292,
+          "duration" : 36027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Automatic test of Tongyuan Technology'", "'AutomatedTesting'", "'ProjectTesting'" ]
+      } ],
+      "uid" : "fb203f75b8c6ac2573574ef9e0555657"
+    }, {
+      "name" : "文件存储",
+      "children" : [ {
+        "name" : "空间管理模块功能点测试",
+        "uid" : "bf91c1cb6bb0772c",
+        "parentUid" : "ef0deba8a5a24f3723607a88c4054d53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609300268197,
+          "stop" : 1609300298167,
+          "duration" : 29970
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'LSSZ'", "'LSSZ'" ]
+      } ],
+      "uid" : "ef0deba8a5a24f3723607a88c4054d53"
+    }, {
+      "name" : "资料管理",
+      "children" : [ {
+        "name" : "文件管理模块功能点测试",
+        "uid" : "13004435056bb9c1",
+        "parentUid" : "cc473b71604191c0181f50fa707afb8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609300314386,
+          "stop" : 1609300342208,
+          "duration" : 27822
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cc473b71604191c0181f50fa707afb8f"
+    } ],
+    "uid" : "63c1a2da97ee206ae3a67e68e50ffcc7"
+  } ]
+}

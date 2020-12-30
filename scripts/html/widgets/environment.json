@@ -1,1 +1,16 @@
-[ ]
+[ {
+  "values" : [ "Chrome" ],
+  "name" : "浏览器"
+}, {
+  "values" : [ "84.0.4147.38" ],
+  "name" : "浏览器版本"
+}, {
+  "values" : [ "Windows10" ],
+  "name" : "测试环境"
+}, {
+  "values" : [ "先行区绿色城市平台" ],
+  "name" : "测试项目"
+}, {
+  "values" : [ "http://113.128.179.250:8020/tydt-cim/index" ],
+  "name" : "测试地址"
+} ]

@@ -1,10 +1,7 @@
 from time import sleep
-
 import allure
-
 import page
 from base.base import Base
-
 from tool.get_logger import GetLogger
 
 log = GetLogger().get_logger()

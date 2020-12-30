@@ -110,6 +110,7 @@ class KnowledgeBase(Base):
     @allure.step(title='输入内容')
     def page_content(self, content):
         log.info("[page_loging] 对：{} 元素 输入内容：{} 操作".format(page.kb_content, content))
+        sleep(3)
         self.base_input(page.kb_content, content)
         # 截图
         self.base_get_image()

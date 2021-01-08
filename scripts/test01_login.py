@@ -27,7 +27,7 @@ class TestLogin():
         GetDriver().quit_driver()
 
     # 登录测试方法
-    @pytest.mark.parametrize(("username", "pwd", "expect_result"),[("admin", "tydt_12345", "系统管理员")])
+    @pytest.mark.parametrize(("username", "pwd", "expect_result"),[("admin", "tydt_123456", "系统管理员")])
     @allure.feature("绿色数字城市CIM基础平台")
     @allure.story("用户登录")
     @allure.title("输入正确用户名和密码登录测试")
